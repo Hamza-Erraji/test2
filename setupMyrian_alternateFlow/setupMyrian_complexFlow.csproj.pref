@@ -1,0 +1,16 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="SetupMyrian.rxrec" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="setupMyrian_complexFlow.rxtst" />
+    <Element value="launchMyrian.rxrec" />
+    <Element value="SetupMyrian.rxrec" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <runOnBuild value="False" />
+    </Properties>
+  </Properties>
+</Properties>

@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="2c56fe7edc2d566b"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="1"
+		user="hamza.erraji"
+		host="EQL-REQ120"
+		rxversion="6.0.0.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="fr-FR"
+		screenresolution="3840x1080"
+		timestamp="06/06/2016 12:03:05"
+		timestampiso="2016-06-06T10:03:05"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Ignored"
+			duration="5ms"
+			durationms="5"
+			type="test suite"
+			rid="1bea7fef2629e9c0"
+			totalerrorcount="0"
+			totalwarningcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="0"
+			totalblockedcount="1"
+			testsuitename="setupMyrian_complexFlow"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="1">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Ignored"
+				duration="1ms"
+				durationms="1"
+				type="test case"
+				rid="4cde3a1a7aba7e6"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="0"
+				totalblockedcount="1"
+				testcasename="TestCase"
+				testcaseid="7c23412b-21fe-4624-b490-8e2f0313f524"
+				maxchildren="0">
+				<params>
+					<param
+						name="codeLine">
+						2.0_prep
+					</param>
+					<param
+						name="destDir">
+						C:\
+					</param>
+					<param
+						name="NewParameter">
+					</param>
+				</params>
+				<detail>
+				</detail>
+			</activity>
+		</activity>
+	</activity>
+</report>

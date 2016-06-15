@@ -1,0 +1,1828 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="2e1c71962ccbcee8"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		user="hamza.erraji"
+		host="EQL-REQ120"
+		rxversion="6.0.0.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="fr-FR"
+		screenresolution="3840x1080"
+		timestamp="06/06/2016 15:28:00"
+		timestampiso="2016-06-06T13:28:00"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="48.76s"
+			durationms="48764"
+			type="test suite"
+			rid="128d9cda481075f2"
+			totalerrorcount="1"
+			totalwarningcount="1"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			testsuitename="setupMyrian_complexFlow"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="1">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Failed"
+				duration="48.76s"
+				durationms="48760"
+				type="test case"
+				rid="a9df788477d9f17"
+				totalerrorcount="1"
+				totalwarningcount="1"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				testcasename="TestCase"
+				testcaseid="7c23412b-21fe-4624-b490-8e2f0313f524"
+				maxchildren="0">
+				<params>
+					<param
+						name="codeLine">
+						2.0_prep
+					</param>
+					<param
+						name="destDir">
+						C:\
+					</param>
+					<param
+						name="NewParameter">
+					</param>
+				</params>
+				<detail>
+				</detail>
+				<activity
+					result="Success"
+					duration="2.89s"
+					durationms="2889"
+					type="test module"
+					rid="2883a8271f642cc0"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="CopySetupFromHeracles"
+					moduleid="b2505c28-c778-47d8-bc60-f39788536785"
+					moduletype="UserCode">
+					<detail>
+					</detail>
+					<varbindings>
+						<varbinding
+							name="codeLine"
+							value="2.0_prep"/>
+						<varbinding
+							name="destDir"
+							value="C:\"/>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.065"
+						timeRelativeToTestModuleStartTime="00:00.000"
+						timeWallClock="15:28:00"
+						time="00:00.065"
+						level="Info"
+						category="Data">
+						<message>
+							Current variable values:<br/>$codeLine = '2.0_prep', $destDir = 'C:\'
+						</message>
+						<metainfo
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.182"
+						timeRelativeToTestModuleStartTime="00:00.117"
+						timeWallClock="15:28:00"
+						time="00:00.182"
+						level="Info"
+						category="User">
+						<message>
+							R&#233;pertoire source du Setup:\\192.168.1.223\DepotCompilationAutomatique\2.0_prep_b12_20160606\Setups\Myrian_installer
+						</message>
+						<metainfo
+							codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\CopySetupFromHeracles.cs"
+							codeline="140"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.258"
+						timeRelativeToTestModuleStartTime="00:00.193"
+						timeWallClock="15:28:00"
+						time="00:00.258"
+						level="Info"
+						category="User">
+						<message>
+							R&#233;pertoire de destination du Setup :C:\
+						</message>
+						<metainfo
+							codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\CopySetupFromHeracles.cs"
+							codeline="141"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.342"
+						timeRelativeToTestModuleStartTime="00:00.277"
+						timeWallClock="15:28:00"
+						time="00:00.342"
+						level="Info"
+						category="User">
+						<message>
+							Copie en cours ...
+						</message>
+						<metainfo
+							codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\CopySetupFromHeracles.cs"
+							codeline="142"
+							loglvl="Info"/>
+					</item>
+				</activity>
+				<activity
+					result="Failed"
+					duration="45.85s"
+					durationms="45845"
+					type="test module"
+					rid="75225868a37bee0"
+					totalerrorcount="1"
+					totalwarningcount="1"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="Recording1"
+					moduleid="79f0650c-6dc5-4dc5-a3ea-6428cbe7544d"
+					moduletype="Recording">
+					<detail>
+					</detail>
+					<errmsg>
+						Attribute 'Text' of element for item 'setupMyrian_complexFlowRepository.MyrianRConfigurationC2005Intrasens.Text1004' does not match the specified value (actual='CIBS', expected='').
+					</errmsg>
+					<varbindings/>
+					<item
+						timeRelativeToTestSuiteStartTime="00:02.987"
+						timeRelativeToTestModuleStartTime="00:00.020"
+						timeWallClock="15:28:03"
+						time="00:02.987"
+						level="Info"
+						category="Validation">
+						<message>
+							Validating AttributeEqual (Checked='False') on item 'MyrianR2010Intrasense.CheckBox410'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Myrian® 2010 Intrasense']/checkbox[@controlid='410']"
+							fullname="setupMyrian_complexFlowRepository.MyrianR2010Intrasense.CheckBox410"
+							id="71573a1c9adf44d4bf40505354b15239"
+							timeout="60000"
+							codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\Recording1.cs"
+							codeline="82"
+							itemindex="0"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:03.394"
+						timeRelativeToTestModuleStartTime="00:00.427"
+						timeWallClock="15:28:03"
+						time="00:03.394"
+						level="Warn"
+						category="Qt">
+						<message>
+							Failed to instrument Qt process. Please make sure you have enough privileges to access the process and a supported version of Qt.<br/>(This message is only shown once per report.)
+						</message>
+						<metainfo
+							limitationName="QtWindow"
+							codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\Recording1.cs"
+							codeline="83"
+							loglvl="Warn"
+							itemindex="0"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:03.481"
+						timeRelativeToTestModuleStartTime="00:00.514"
+						timeWallClock="15:28:03"
+						time="00:03.481"
+						level="Success"
+						category="Validation">
+						<message>
+							Attribute 'Checked' of element for item 'setupMyrian_complexFlowRepository.MyrianR2010Intrasense.CheckBox410' does match the specified value.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Myrian® 2010 Intrasense']/checkbox[@controlid='410']"
+							fullname="setupMyrian_complexFlowRepository.MyrianR2010Intrasense.CheckBox410"
+							id="71573a1c9adf44d4bf40505354b15239"
+							timeout="60000"
+							codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\Recording1.cs"
+							codeline="83"
+							loglvl="Success"
+							itemindex="0"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:03.664"
+						timeRelativeToTestModuleStartTime="00:00.697"
+						timeWallClock="15:28:04"
+						time="00:03.664"
+						level="Info"
+						category="Validation">
+						<message>
+							Validating Exists on item 'MyrianR2010Intrasense.ComboBox400'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Myrian® 2010 Intrasense']/combobox[@controlid='400']"
+							fullname="setupMyrian_complexFlowRepository.MyrianR2010Intrasense.ComboBox400"
+							id="344d5550862b4b958231559f31d8d3fe"
+							timeout="60000"
+							codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\Recording1.cs"
+							codeline="86"
+							itemindex="1"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:03.781"
+						timeRelativeToTestModuleStartTime="00:00.814"
+						timeWallClock="15:28:04"
+						time="00:03.781"
+						level="Success"
+						category="Validation">
+						<message>
+							Element for item 'ComboBox400' does exist.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Myrian® 2010 Intrasense']/combobox[@controlid='400']"
+							fullname="setupMyrian_complexFlowRepository.MyrianR2010Intrasense.ComboBox400"
+							id="344d5550862b4b958231559f31d8d3fe"
+							timeout="60000"
+							codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\Recording1.cs"
+							codeline="87"
+							loglvl="Success"
+							itemindex="1"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:03.977"
+						timeRelativeToTestModuleStartTime="00:01.010"
+						timeWallClock="15:28:04"
+						time="00:03.977"
+						level="Info"
+						category="Validation">
+						<message>
+							Validating AttributeEqual (Text='D&#233;marrer l'installation') on item 'MyrianR2010Intrasense.Button1'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Myrian® 2010 Intrasense']/button[@controlid='1']"
+							fullname="setupMyrian_complexFlowRepository.MyrianR2010Intrasense.Button1"
+							id="c2e63e1d25e142c4893f796edf3cf071"
+							timeout="60000"
+							codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\Recording1.cs"
+							codeline="90"
+							itemindex="2"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:04.143"
+						timeRelativeToTestModuleStartTime="00:01.176"
+						timeWallClock="15:28:04"
+						time="00:04.143"
+						level="Success"
+						category="Validation">
+						<message>
+							Attribute 'Text' of element for item 'setupMyrian_complexFlowRepository.MyrianR2010Intrasense.Button1' does match the specified value.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Myrian® 2010 Intrasense']/button[@controlid='1']"
+							fullname="setupMyrian_complexFlowRepository.MyrianR2010Intrasense.Button1"
+							id="c2e63e1d25e142c4893f796edf3cf071"
+							timeout="60000"
+							codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\Recording1.cs"
+							codeline="91"
+							loglvl="Success"
+							itemindex="2"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:04.343"
+						timeRelativeToTestModuleStartTime="00:01.376"
+						timeWallClock="15:28:04"
+						time="00:04.343"
+						level="Info"
+						category="Validation">
+						<message>
+							Validating AttributeEqual (Text='Annuler') on item 'MyrianR2010Intrasense.Button2'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Myrian® 2010 Intrasense']/button[@controlid='2']"
+							fullname="setupMyrian_complexFlowRepository.MyrianR2010Intrasense.Button2"
+							id="8339164841ad43c58c628f25a69f06fe"
+							timeout="60000"
+							codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\Recording1.cs"
+							codeline="94"
+							itemindex="3"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:04.494"
+						timeRelativeToTestModuleStartTime="00:01.527"
+						timeWallClock="15:28:04"
+						time="00:04.494"
+						level="Success"
+						category="Validation">
+						<message>
+							Attribute 'Text' of element for item 'setupMyrian_complexFlowRepository.MyrianR2010Intrasense.Button2' does match the specified value.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Myrian® 2010 Intrasense']/button[@controlid='2']"
+							fullname="setupMyrian_complexFlowRepository.MyrianR2010Intrasense.Button2"
+							id="8339164841ad43c58c628f25a69f06fe"
+							timeout="60000"
+							codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\Recording1.cs"
+							codeline="95"
+							loglvl="Success"
+							itemindex="3"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:04.696"
+						timeRelativeToTestModuleStartTime="00:01.729"
+						timeWallClock="15:28:05"
+						time="00:04.696"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'MyrianR2010Intrasense.Button1' at 43;16.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Myrian® 2010 Intrasense']/button[@controlid='1']"
+							fullname="setupMyrian_complexFlowRepository.MyrianR2010Intrasense.Button1"
+							id="c2e63e1d25e142c4893f796edf3cf071"
+							timeout="60000"
+							codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\Recording1.cs"
+							codeline="98"
+							itemindex="4"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:05.495"
+						timeRelativeToTestModuleStartTime="00:02.528"
+						timeWallClock="15:28:05"
+						time="00:05.495"
+						level="Info"
+						category="Validation">
+						<message>
+							Validating AttributeEqual (Text='WixUI_Bmp_Dialog') on item 'InstallationDeMyrian.Text322'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Installation de Myrian']/text[@controlid='322']"
+							fullname="setupMyrian_complexFlowRepository.InstallationDeMyrian.Text322"
+							id="7c5c5f29d40d40a0ba78e92d35a1cf84"
+							timeout="60000"
+							codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\Recording1.cs"
+							codeline="102"
+							itemindex="5"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:09.259"
+						timeRelativeToTestModuleStartTime="00:06.292"
+						timeWallClock="15:28:09"
+						time="00:09.259"
+						level="Success"
+						category="Validation">
+						<message>
+							Attribute 'Text' of element for item 'setupMyrian_complexFlowRepository.InstallationDeMyrian.Text322' does match the specified value.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Installation de Myrian']/text[@controlid='322']"
+							fullname="setupMyrian_complexFlowRepository.InstallationDeMyrian.Text322"
+							id="7c5c5f29d40d40a0ba78e92d35a1cf84"
+							timeout="60000"
+							codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\Recording1.cs"
+							codeline="103"
+							loglvl="Success"
+							itemindex="5"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:09.471"
+						timeRelativeToTestModuleStartTime="00:06.504"
+						timeWallClock="15:28:09"
+						time="00:09.471"
+						level="Info"
+						category="Validation">
+						<message>
+							Validating AttributeEqual (Text='&amp;Suivant') on item 'InstallationDeMyrian.Button374'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Installation de Myrian']/button[@controlid='374']"
+							fullname="setupMyrian_complexFlowRepository.InstallationDeMyrian.Button374"
+							id="8ec6b82d6b844d64ad6bcdeaadafa014"
+							timeout="60000"
+							codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\Recording1.cs"
+							codeline="106"
+							itemindex="6"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:09.631"
+						timeRelativeToTestModuleStartTime="00:06.664"
+						timeWallClock="15:28:10"
+						time="00:09.631"
+						level="Success"
+						category="Validation">
+						<message>
+							Attribute 'Text' of element for item 'setupMyrian_complexFlowRepository.InstallationDeMyrian.Button374' does match the specified value.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Installation de Myrian']/button[@controlid='374']"
+							fullname="setupMyrian_complexFlowRepository.InstallationDeMyrian.Button374"
+							id="8ec6b82d6b844d64ad6bcdeaadafa014"
+							timeout="60000"
+							codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\Recording1.cs"
+							codeline="107"
+							loglvl="Success"
+							itemindex="6"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:09.839"
+						timeRelativeToTestModuleStartTime="00:06.872"
+						timeWallClock="15:28:10"
+						time="00:09.839"
+						level="Info"
+						category="Validation">
+						<message>
+							Validating AttributeEqual (Text='Annuler') on item 'InstallationDeMyrian.Button311'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Installation de Myrian']/button[@controlid='311']"
+							fullname="setupMyrian_complexFlowRepository.InstallationDeMyrian.Button311"
+							id="08ff491f4a3a49df9f0e7cccee0a1aad"
+							timeout="60000"
+							codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\Recording1.cs"
+							codeline="110"
+							itemindex="7"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:09.932"
+						timeRelativeToTestModuleStartTime="00:06.965"
+						timeWallClock="15:28:10"
+						time="00:09.932"
+						level="Success"
+						category="Validation">
+						<message>
+							Attribute 'Text' of element for item 'setupMyrian_complexFlowRepository.InstallationDeMyrian.Button311' does match the specified value.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Installation de Myrian']/button[@controlid='311']"
+							fullname="setupMyrian_complexFlowRepository.InstallationDeMyrian.Button311"
+							id="08ff491f4a3a49df9f0e7cccee0a1aad"
+							timeout="60000"
+							codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\Recording1.cs"
+							codeline="111"
+							loglvl="Success"
+							itemindex="7"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:10.089"
+						timeRelativeToTestModuleStartTime="00:07.123"
+						timeWallClock="15:28:10"
+						time="00:10.089"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'InstallationDeMyrian.Button311' at 47;11.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Installation de Myrian']/button[@controlid='311']"
+							fullname="setupMyrian_complexFlowRepository.InstallationDeMyrian.Button311"
+							id="08ff491f4a3a49df9f0e7cccee0a1aad"
+							timeout="60000"
+							codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\Recording1.cs"
+							codeline="114"
+							itemindex="8"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:10.889"
+						timeRelativeToTestModuleStartTime="00:07.923"
+						timeWallClock="15:28:11"
+						time="00:10.889"
+						level="Info"
+						category="Validation">
+						<message>
+							Validating AttributeEqual (Text='&amp;Oui') on item 'InstallationDeMyrian.Button380'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Installation de Myrian']/button[@controlid='380']"
+							fullname="setupMyrian_complexFlowRepository.InstallationDeMyrian.Button380"
+							id="341556601c5c4024888dde4f701efec4"
+							timeout="60000"
+							codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\Recording1.cs"
+							codeline="118"
+							itemindex="9"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:11.034"
+						timeRelativeToTestModuleStartTime="00:08.068"
+						timeWallClock="15:28:11"
+						time="00:11.034"
+						level="Success"
+						category="Validation">
+						<message>
+							Attribute 'Text' of element for item 'setupMyrian_complexFlowRepository.InstallationDeMyrian.Button380' does match the specified value.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Installation de Myrian']/button[@controlid='380']"
+							fullname="setupMyrian_complexFlowRepository.InstallationDeMyrian.Button380"
+							id="341556601c5c4024888dde4f701efec4"
+							timeout="60000"
+							codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\Recording1.cs"
+							codeline="119"
+							loglvl="Success"
+							itemindex="9"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:11.214"
+						timeRelativeToTestModuleStartTime="00:08.248"
+						timeWallClock="15:28:11"
+						time="00:11.214"
+						level="Info"
+						category="Validation">
+						<message>
+							Validating AttributeEqual (Text='&amp;Non') on item 'InstallationDeMyrian.Button379'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Installation de Myrian']/button[@controlid='379']"
+							fullname="setupMyrian_complexFlowRepository.InstallationDeMyrian.Button379"
+							id="c3ffcc14c1df4aa3a1b8a17e1ac826d3"
+							timeout="60000"
+							codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\Recording1.cs"
+							codeline="122"
+							itemindex="10"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:11.341"
+						timeRelativeToTestModuleStartTime="00:08.375"
+						timeWallClock="15:28:11"
+						time="00:11.341"
+						level="Success"
+						category="Validation">
+						<message>
+							Attribute 'Text' of element for item 'setupMyrian_complexFlowRepository.InstallationDeMyrian.Button379' does match the specified value.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Installation de Myrian']/button[@controlid='379']"
+							fullname="setupMyrian_complexFlowRepository.InstallationDeMyrian.Button379"
+							id="c3ffcc14c1df4aa3a1b8a17e1ac826d3"
+							timeout="60000"
+							codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\Recording1.cs"
+							codeline="123"
+							loglvl="Success"
+							itemindex="10"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:11.491"
+						timeRelativeToTestModuleStartTime="00:08.525"
+						timeWallClock="15:28:11"
+						time="00:11.491"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'InstallationDeMyrian.Button379' at 36;10.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Installation de Myrian']/button[@controlid='379']"
+							fullname="setupMyrian_complexFlowRepository.InstallationDeMyrian.Button379"
+							id="c3ffcc14c1df4aa3a1b8a17e1ac826d3"
+							timeout="60000"
+							codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\Recording1.cs"
+							codeline="126"
+							itemindex="11"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:12.284"
+						timeRelativeToTestModuleStartTime="00:09.318"
+						timeWallClock="15:28:12"
+						time="00:12.284"
+						level="Info"
+						category="Validation">
+						<message>
+							Validating AttributeEqual (Text='WixUI_Bmp_Dialog') on item 'InstallationDeMyrian.Text322'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Installation de Myrian']/text[@controlid='322']"
+							fullname="setupMyrian_complexFlowRepository.InstallationDeMyrian.Text322"
+							id="7c5c5f29d40d40a0ba78e92d35a1cf84"
+							timeout="60000"
+							codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\Recording1.cs"
+							codeline="130"
+							itemindex="12"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:12.404"
+						timeRelativeToTestModuleStartTime="00:09.438"
+						timeWallClock="15:28:12"
+						time="00:12.404"
+						level="Success"
+						category="Validation">
+						<message>
+							Attribute 'Text' of element for item 'setupMyrian_complexFlowRepository.InstallationDeMyrian.Text322' does match the specified value.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Installation de Myrian']/text[@controlid='322']"
+							fullname="setupMyrian_complexFlowRepository.InstallationDeMyrian.Text322"
+							id="7c5c5f29d40d40a0ba78e92d35a1cf84"
+							timeout="60000"
+							codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\Recording1.cs"
+							codeline="131"
+							loglvl="Success"
+							itemindex="12"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:12.574"
+						timeRelativeToTestModuleStartTime="00:09.607"
+						timeWallClock="15:28:13"
+						time="00:12.574"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'InstallationDeMyrian.Button374' at 29;9.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Installation de Myrian']/button[@controlid='374']"
+							fullname="setupMyrian_complexFlowRepository.InstallationDeMyrian.Button374"
+							id="8ec6b82d6b844d64ad6bcdeaadafa014"
+							timeout="60000"
+							codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\Recording1.cs"
+							codeline="134"
+							itemindex="13"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:13.381"
+						timeRelativeToTestModuleStartTime="00:10.414"
+						timeWallClock="15:28:13"
+						time="00:13.381"
+						level="Info"
+						category="Validation">
+						<message>
+							Validating AttributeEqual (Text='C:\Program Files\Intrasense\Myrian\') on item 'InstallationDeMyrian.Text441'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Installation de Myrian']/text[@controlid='441']"
+							fullname="setupMyrian_complexFlowRepository.InstallationDeMyrian.Text441"
+							id="f1ba4b98e0ea41e0a0d0de104c376300"
+							timeout="60000"
+							codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\Recording1.cs"
+							codeline="138"
+							itemindex="14"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:13.551"
+						timeRelativeToTestModuleStartTime="00:10.584"
+						timeWallClock="15:28:14"
+						time="00:13.551"
+						level="Success"
+						category="Validation">
+						<message>
+							Attribute 'Text' of element for item 'setupMyrian_complexFlowRepository.InstallationDeMyrian.Text441' does match the specified value.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Installation de Myrian']/text[@controlid='441']"
+							fullname="setupMyrian_complexFlowRepository.InstallationDeMyrian.Text441"
+							id="f1ba4b98e0ea41e0a0d0de104c376300"
+							timeout="60000"
+							codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\Recording1.cs"
+							codeline="139"
+							loglvl="Success"
+							itemindex="14"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:13.741"
+						timeRelativeToTestModuleStartTime="00:10.774"
+						timeWallClock="15:28:14"
+						time="00:13.741"
+						level="Info"
+						category="Validation">
+						<message>
+							Validating AttributeEqual (Text='&amp;Modifier...') on item 'InstallationDeMyrian.Button445'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Installation de Myrian']/button[@controlid='445']"
+							fullname="setupMyrian_complexFlowRepository.InstallationDeMyrian.Button445"
+							id="636120a6ebad431f825012d80c87d419"
+							timeout="60000"
+							codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\Recording1.cs"
+							codeline="142"
+							itemindex="15"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:13.883"
+						timeRelativeToTestModuleStartTime="00:10.916"
+						timeWallClock="15:28:14"
+						time="00:13.883"
+						level="Success"
+						category="Validation">
+						<message>
+							Attribute 'Text' of element for item 'setupMyrian_complexFlowRepository.InstallationDeMyrian.Button445' does match the specified value.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Installation de Myrian']/button[@controlid='445']"
+							fullname="setupMyrian_complexFlowRepository.InstallationDeMyrian.Button445"
+							id="636120a6ebad431f825012d80c87d419"
+							timeout="60000"
+							codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\Recording1.cs"
+							codeline="143"
+							loglvl="Success"
+							itemindex="15"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:14.073"
+						timeRelativeToTestModuleStartTime="00:11.106"
+						timeWallClock="15:28:14"
+						time="00:14.073"
+						level="Info"
+						category="Validation">
+						<message>
+							Validating AttributeEqual (Text='&amp;Pr&#233;c&#233;dent') on item 'InstallationDeMyrian.Button352'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Installation de Myrian']/button[@controlid='352']"
+							fullname="setupMyrian_complexFlowRepository.InstallationDeMyrian.Button352"
+							id="1b22c179b13f4fb4be874814a10e90c7"
+							timeout="60000"
+							codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\Recording1.cs"
+							codeline="146"
+							itemindex="16"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:14.203"
+						timeRelativeToTestModuleStartTime="00:11.236"
+						timeWallClock="15:28:14"
+						time="00:14.203"
+						level="Success"
+						category="Validation">
+						<message>
+							Attribute 'Text' of element for item 'setupMyrian_complexFlowRepository.InstallationDeMyrian.Button352' does match the specified value.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Installation de Myrian']/button[@controlid='352']"
+							fullname="setupMyrian_complexFlowRepository.InstallationDeMyrian.Button352"
+							id="1b22c179b13f4fb4be874814a10e90c7"
+							timeout="60000"
+							codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\Recording1.cs"
+							codeline="147"
+							loglvl="Success"
+							itemindex="16"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:14.365"
+						timeRelativeToTestModuleStartTime="00:11.398"
+						timeWallClock="15:28:14"
+						time="00:14.365"
+						level="Info"
+						category="Validation">
+						<message>
+							Validating AttributeEqual (Text='&amp;Suivant') on item 'InstallationDeMyrian.Button374'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Installation de Myrian']/button[@controlid='374']"
+							fullname="setupMyrian_complexFlowRepository.InstallationDeMyrian.Button374"
+							id="8ec6b82d6b844d64ad6bcdeaadafa014"
+							timeout="60000"
+							codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\Recording1.cs"
+							codeline="150"
+							itemindex="17"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:14.475"
+						timeRelativeToTestModuleStartTime="00:11.508"
+						timeWallClock="15:28:14"
+						time="00:14.475"
+						level="Success"
+						category="Validation">
+						<message>
+							Attribute 'Text' of element for item 'setupMyrian_complexFlowRepository.InstallationDeMyrian.Button374' does match the specified value.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Installation de Myrian']/button[@controlid='374']"
+							fullname="setupMyrian_complexFlowRepository.InstallationDeMyrian.Button374"
+							id="8ec6b82d6b844d64ad6bcdeaadafa014"
+							timeout="60000"
+							codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\Recording1.cs"
+							codeline="151"
+							loglvl="Success"
+							itemindex="17"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:14.629"
+						timeRelativeToTestModuleStartTime="00:11.662"
+						timeWallClock="15:28:15"
+						time="00:14.629"
+						level="Info"
+						category="Validation">
+						<message>
+							Validating AttributeEqual (Text='Annuler') on item 'InstallationDeMyrian.Button311'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Installation de Myrian']/button[@controlid='311']"
+							fullname="setupMyrian_complexFlowRepository.InstallationDeMyrian.Button311"
+							id="08ff491f4a3a49df9f0e7cccee0a1aad"
+							timeout="60000"
+							codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\Recording1.cs"
+							codeline="154"
+							itemindex="18"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:14.729"
+						timeRelativeToTestModuleStartTime="00:11.762"
+						timeWallClock="15:28:15"
+						time="00:14.729"
+						level="Success"
+						category="Validation">
+						<message>
+							Attribute 'Text' of element for item 'setupMyrian_complexFlowRepository.InstallationDeMyrian.Button311' does match the specified value.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Installation de Myrian']/button[@controlid='311']"
+							fullname="setupMyrian_complexFlowRepository.InstallationDeMyrian.Button311"
+							id="08ff491f4a3a49df9f0e7cccee0a1aad"
+							timeout="60000"
+							codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\Recording1.cs"
+							codeline="155"
+							loglvl="Success"
+							itemindex="18"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:14.871"
+						timeRelativeToTestModuleStartTime="00:11.904"
+						timeWallClock="15:28:15"
+						time="00:14.871"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'InstallationDeMyrian.Button352' at 28;12.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Installation de Myrian']/button[@controlid='352']"
+							fullname="setupMyrian_complexFlowRepository.InstallationDeMyrian.Button352"
+							id="1b22c179b13f4fb4be874814a10e90c7"
+							timeout="60000"
+							codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\Recording1.cs"
+							codeline="158"
+							itemindex="19"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:15.643"
+						timeRelativeToTestModuleStartTime="00:12.676"
+						timeWallClock="15:28:16"
+						time="00:15.643"
+						level="Info"
+						category="Validation">
+						<message>
+							Validating AttributeEqual (Text='WixUI_Bmp_Dialog') on item 'InstallationDeMyrian.Text322'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Installation de Myrian']/text[@controlid='322']"
+							fullname="setupMyrian_complexFlowRepository.InstallationDeMyrian.Text322"
+							id="7c5c5f29d40d40a0ba78e92d35a1cf84"
+							timeout="60000"
+							codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\Recording1.cs"
+							codeline="162"
+							itemindex="20"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:15.783"
+						timeRelativeToTestModuleStartTime="00:12.816"
+						timeWallClock="15:28:16"
+						time="00:15.783"
+						level="Success"
+						category="Validation">
+						<message>
+							Attribute 'Text' of element for item 'setupMyrian_complexFlowRepository.InstallationDeMyrian.Text322' does match the specified value.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Installation de Myrian']/text[@controlid='322']"
+							fullname="setupMyrian_complexFlowRepository.InstallationDeMyrian.Text322"
+							id="7c5c5f29d40d40a0ba78e92d35a1cf84"
+							timeout="60000"
+							codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\Recording1.cs"
+							codeline="163"
+							loglvl="Success"
+							itemindex="20"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:15.973"
+						timeRelativeToTestModuleStartTime="00:13.006"
+						timeWallClock="15:28:16"
+						time="00:15.973"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'InstallationDeMyrian.Button374' at 21;15.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Installation de Myrian']/button[@controlid='374']"
+							fullname="setupMyrian_complexFlowRepository.InstallationDeMyrian.Button374"
+							id="8ec6b82d6b844d64ad6bcdeaadafa014"
+							timeout="60000"
+							codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\Recording1.cs"
+							codeline="166"
+							itemindex="21"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:16.749"
+						timeRelativeToTestModuleStartTime="00:13.782"
+						timeWallClock="15:28:17"
+						time="00:16.749"
+						level="Info"
+						category="Validation">
+						<message>
+							Validating AttributeEqual (Text='C:\Program Files\Intrasense\Myrian\') on item 'InstallationDeMyrian.Text441'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Installation de Myrian']/text[@controlid='441']"
+							fullname="setupMyrian_complexFlowRepository.InstallationDeMyrian.Text441"
+							id="f1ba4b98e0ea41e0a0d0de104c376300"
+							timeout="60000"
+							codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\Recording1.cs"
+							codeline="170"
+							itemindex="22"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:16.889"
+						timeRelativeToTestModuleStartTime="00:13.922"
+						timeWallClock="15:28:17"
+						time="00:16.889"
+						level="Success"
+						category="Validation">
+						<message>
+							Attribute 'Text' of element for item 'setupMyrian_complexFlowRepository.InstallationDeMyrian.Text441' does match the specified value.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Installation de Myrian']/text[@controlid='441']"
+							fullname="setupMyrian_complexFlowRepository.InstallationDeMyrian.Text441"
+							id="f1ba4b98e0ea41e0a0d0de104c376300"
+							timeout="60000"
+							codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\Recording1.cs"
+							codeline="171"
+							loglvl="Success"
+							itemindex="22"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:17.059"
+						timeRelativeToTestModuleStartTime="00:14.092"
+						timeWallClock="15:28:17"
+						time="00:17.059"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'InstallationDeMyrian.Button311' at 19;10.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Installation de Myrian']/button[@controlid='311']"
+							fullname="setupMyrian_complexFlowRepository.InstallationDeMyrian.Button311"
+							id="08ff491f4a3a49df9f0e7cccee0a1aad"
+							timeout="60000"
+							codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\Recording1.cs"
+							codeline="174"
+							itemindex="23"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:17.863"
+						timeRelativeToTestModuleStartTime="00:14.896"
+						timeWallClock="15:28:18"
+						time="00:17.863"
+						level="Info"
+						category="Validation">
+						<message>
+							Validating AttributeEqual (Text='&amp;Oui') on item 'InstallationDeMyrian.Button380'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Installation de Myrian']/button[@controlid='380']"
+							fullname="setupMyrian_complexFlowRepository.InstallationDeMyrian.Button380"
+							id="341556601c5c4024888dde4f701efec4"
+							timeout="60000"
+							codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\Recording1.cs"
+							codeline="178"
+							itemindex="24"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:17.982"
+						timeRelativeToTestModuleStartTime="00:15.016"
+						timeWallClock="15:28:18"
+						time="00:17.982"
+						level="Success"
+						category="Validation">
+						<message>
+							Attribute 'Text' of element for item 'setupMyrian_complexFlowRepository.InstallationDeMyrian.Button380' does match the specified value.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Installation de Myrian']/button[@controlid='380']"
+							fullname="setupMyrian_complexFlowRepository.InstallationDeMyrian.Button380"
+							id="341556601c5c4024888dde4f701efec4"
+							timeout="60000"
+							codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\Recording1.cs"
+							codeline="179"
+							loglvl="Success"
+							itemindex="24"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:18.132"
+						timeRelativeToTestModuleStartTime="00:15.166"
+						timeWallClock="15:28:18"
+						time="00:18.132"
+						level="Info"
+						category="Validation">
+						<message>
+							Validating AttributeEqual (Text='&amp;Non') on item 'InstallationDeMyrian.Button379'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Installation de Myrian']/button[@controlid='379']"
+							fullname="setupMyrian_complexFlowRepository.InstallationDeMyrian.Button379"
+							id="c3ffcc14c1df4aa3a1b8a17e1ac826d3"
+							timeout="60000"
+							codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\Recording1.cs"
+							codeline="182"
+							itemindex="25"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:18.242"
+						timeRelativeToTestModuleStartTime="00:15.276"
+						timeWallClock="15:28:18"
+						time="00:18.242"
+						level="Success"
+						category="Validation">
+						<message>
+							Attribute 'Text' of element for item 'setupMyrian_complexFlowRepository.InstallationDeMyrian.Button379' does match the specified value.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Installation de Myrian']/button[@controlid='379']"
+							fullname="setupMyrian_complexFlowRepository.InstallationDeMyrian.Button379"
+							id="c3ffcc14c1df4aa3a1b8a17e1ac826d3"
+							timeout="60000"
+							codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\Recording1.cs"
+							codeline="183"
+							loglvl="Success"
+							itemindex="25"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:18.394"
+						timeRelativeToTestModuleStartTime="00:15.428"
+						timeWallClock="15:28:18"
+						time="00:18.394"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'InstallationDeMyrian.Button379' at 31;10.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Installation de Myrian']/button[@controlid='379']"
+							fullname="setupMyrian_complexFlowRepository.InstallationDeMyrian.Button379"
+							id="c3ffcc14c1df4aa3a1b8a17e1ac826d3"
+							timeout="60000"
+							codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\Recording1.cs"
+							codeline="186"
+							itemindex="26"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:19.186"
+						timeRelativeToTestModuleStartTime="00:16.220"
+						timeWallClock="15:28:19"
+						time="00:19.186"
+						level="Info"
+						category="Validation">
+						<message>
+							Validating AttributeEqual (Text='&amp;Modifier...') on item 'InstallationDeMyrian.Button445'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Installation de Myrian']/button[@controlid='445']"
+							fullname="setupMyrian_complexFlowRepository.InstallationDeMyrian.Button445"
+							id="636120a6ebad431f825012d80c87d419"
+							timeout="60000"
+							codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\Recording1.cs"
+							codeline="190"
+							itemindex="27"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:19.286"
+						timeRelativeToTestModuleStartTime="00:16.320"
+						timeWallClock="15:28:19"
+						time="00:19.286"
+						level="Success"
+						category="Validation">
+						<message>
+							Attribute 'Text' of element for item 'setupMyrian_complexFlowRepository.InstallationDeMyrian.Button445' does match the specified value.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Installation de Myrian']/button[@controlid='445']"
+							fullname="setupMyrian_complexFlowRepository.InstallationDeMyrian.Button445"
+							id="636120a6ebad431f825012d80c87d419"
+							timeout="60000"
+							codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\Recording1.cs"
+							codeline="191"
+							loglvl="Success"
+							itemindex="27"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:19.456"
+						timeRelativeToTestModuleStartTime="00:16.490"
+						timeWallClock="15:28:19"
+						time="00:19.456"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'InstallationDeMyrian.Button374' at 51;9.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Installation de Myrian']/button[@controlid='374']"
+							fullname="setupMyrian_complexFlowRepository.InstallationDeMyrian.Button374"
+							id="8ec6b82d6b844d64ad6bcdeaadafa014"
+							timeout="60000"
+							codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\Recording1.cs"
+							codeline="194"
+							itemindex="28"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:20.241"
+						timeRelativeToTestModuleStartTime="00:17.275"
+						timeWallClock="15:28:20"
+						time="00:20.241"
+						level="Info"
+						category="Validation">
+						<message>
+							Validating AttributeEqual (Text='&amp;Pr&#233;c&#233;dent') on item 'InstallationDeMyrian.Button352'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Installation de Myrian']/button[@controlid='352']"
+							fullname="setupMyrian_complexFlowRepository.InstallationDeMyrian.Button352"
+							id="1b22c179b13f4fb4be874814a10e90c7"
+							timeout="60000"
+							codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\Recording1.cs"
+							codeline="198"
+							itemindex="29"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:20.444"
+						timeRelativeToTestModuleStartTime="00:17.477"
+						timeWallClock="15:28:20"
+						time="00:20.444"
+						level="Success"
+						category="Validation">
+						<message>
+							Attribute 'Text' of element for item 'setupMyrian_complexFlowRepository.InstallationDeMyrian.Button352' does match the specified value.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Installation de Myrian']/button[@controlid='352']"
+							fullname="setupMyrian_complexFlowRepository.InstallationDeMyrian.Button352"
+							id="1b22c179b13f4fb4be874814a10e90c7"
+							timeout="60000"
+							codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\Recording1.cs"
+							codeline="199"
+							loglvl="Success"
+							itemindex="29"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:20.624"
+						timeRelativeToTestModuleStartTime="00:17.657"
+						timeWallClock="15:28:21"
+						time="00:20.624"
+						level="Info"
+						category="Validation">
+						<message>
+							Validating AttributeEqual (Text='&amp;Installer') on item 'InstallationDeMyrian.Button408'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Installation de Myrian']/button[@controlid='408']"
+							fullname="setupMyrian_complexFlowRepository.InstallationDeMyrian.Button408"
+							id="f5f74d36f3514165b7075a11bc3607fd"
+							timeout="60000"
+							codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\Recording1.cs"
+							codeline="202"
+							itemindex="30"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:20.754"
+						timeRelativeToTestModuleStartTime="00:17.787"
+						timeWallClock="15:28:21"
+						time="00:20.754"
+						level="Success"
+						category="Validation">
+						<message>
+							Attribute 'Text' of element for item 'setupMyrian_complexFlowRepository.InstallationDeMyrian.Button408' does match the specified value.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Installation de Myrian']/button[@controlid='408']"
+							fullname="setupMyrian_complexFlowRepository.InstallationDeMyrian.Button408"
+							id="f5f74d36f3514165b7075a11bc3607fd"
+							timeout="60000"
+							codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\Recording1.cs"
+							codeline="203"
+							loglvl="Success"
+							itemindex="30"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:20.926"
+						timeRelativeToTestModuleStartTime="00:17.959"
+						timeWallClock="15:28:21"
+						time="00:20.926"
+						level="Info"
+						category="Validation">
+						<message>
+							Validating AttributeEqual (Text='Annuler') on item 'InstallationDeMyrian.Button311'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Installation de Myrian']/button[@controlid='311']"
+							fullname="setupMyrian_complexFlowRepository.InstallationDeMyrian.Button311"
+							id="08ff491f4a3a49df9f0e7cccee0a1aad"
+							timeout="60000"
+							codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\Recording1.cs"
+							codeline="206"
+							itemindex="31"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:21.036"
+						timeRelativeToTestModuleStartTime="00:18.069"
+						timeWallClock="15:28:21"
+						time="00:21.036"
+						level="Success"
+						category="Validation">
+						<message>
+							Attribute 'Text' of element for item 'setupMyrian_complexFlowRepository.InstallationDeMyrian.Button311' does match the specified value.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Installation de Myrian']/button[@controlid='311']"
+							fullname="setupMyrian_complexFlowRepository.InstallationDeMyrian.Button311"
+							id="08ff491f4a3a49df9f0e7cccee0a1aad"
+							timeout="60000"
+							codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\Recording1.cs"
+							codeline="207"
+							loglvl="Success"
+							itemindex="31"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:21.216"
+						timeRelativeToTestModuleStartTime="00:18.249"
+						timeWallClock="15:28:21"
+						time="00:21.216"
+						level="Info"
+						category="Validation">
+						<message>
+							Validating AttributeEqual (Text='Cliquez sur Installer pour commencer l'installation. Cliquez sur Pr&#233;c&#233;dent pour v&#233;rifier ou modifier vos param&#232;tres d'installation. Cliquez sur Annuler pour quitter l'Assistant.') on item 'InstallationDeMyrian.Text460'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Installation de Myrian']/text[@controlid='460']"
+							fullname="setupMyrian_complexFlowRepository.InstallationDeMyrian.Text460"
+							id="f1d6a7ac2ef24ed8b0abf0b104a804db"
+							timeout="60000"
+							codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\Recording1.cs"
+							codeline="210"
+							itemindex="32"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:21.326"
+						timeRelativeToTestModuleStartTime="00:18.359"
+						timeWallClock="15:28:21"
+						time="00:21.326"
+						level="Success"
+						category="Validation">
+						<message>
+							Attribute 'Text' of element for item 'setupMyrian_complexFlowRepository.InstallationDeMyrian.Text460' does match the specified value.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Installation de Myrian']/text[@controlid='460']"
+							fullname="setupMyrian_complexFlowRepository.InstallationDeMyrian.Text460"
+							id="f1d6a7ac2ef24ed8b0abf0b104a804db"
+							timeout="60000"
+							codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\Recording1.cs"
+							codeline="211"
+							loglvl="Success"
+							itemindex="32"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:21.486"
+						timeRelativeToTestModuleStartTime="00:18.519"
+						timeWallClock="15:28:21"
+						time="00:21.486"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'InstallationDeMyrian.Button352' at 37;9.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Installation de Myrian']/button[@controlid='352']"
+							fullname="setupMyrian_complexFlowRepository.InstallationDeMyrian.Button352"
+							id="1b22c179b13f4fb4be874814a10e90c7"
+							timeout="60000"
+							codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\Recording1.cs"
+							codeline="214"
+							itemindex="33"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:22.251"
+						timeRelativeToTestModuleStartTime="00:19.284"
+						timeWallClock="15:28:22"
+						time="00:22.251"
+						level="Info"
+						category="Validation">
+						<message>
+							Validating AttributeEqual (Text='C:\Program Files\Intrasense\Myrian\') on item 'InstallationDeMyrian.Text441'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Installation de Myrian']/text[@controlid='441']"
+							fullname="setupMyrian_complexFlowRepository.InstallationDeMyrian.Text441"
+							id="f1ba4b98e0ea41e0a0d0de104c376300"
+							timeout="60000"
+							codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\Recording1.cs"
+							codeline="218"
+							itemindex="34"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:22.395"
+						timeRelativeToTestModuleStartTime="00:19.428"
+						timeWallClock="15:28:22"
+						time="00:22.395"
+						level="Success"
+						category="Validation">
+						<message>
+							Attribute 'Text' of element for item 'setupMyrian_complexFlowRepository.InstallationDeMyrian.Text441' does match the specified value.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Installation de Myrian']/text[@controlid='441']"
+							fullname="setupMyrian_complexFlowRepository.InstallationDeMyrian.Text441"
+							id="f1ba4b98e0ea41e0a0d0de104c376300"
+							timeout="60000"
+							codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\Recording1.cs"
+							codeline="219"
+							loglvl="Success"
+							itemindex="34"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:22.577"
+						timeRelativeToTestModuleStartTime="00:19.610"
+						timeWallClock="15:28:23"
+						time="00:22.577"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'InstallationDeMyrian.Button374' at 26;11.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Installation de Myrian']/button[@controlid='374']"
+							fullname="setupMyrian_complexFlowRepository.InstallationDeMyrian.Button374"
+							id="8ec6b82d6b844d64ad6bcdeaadafa014"
+							timeout="60000"
+							codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\Recording1.cs"
+							codeline="222"
+							itemindex="35"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:23.367"
+						timeRelativeToTestModuleStartTime="00:20.400"
+						timeWallClock="15:28:23"
+						time="00:23.367"
+						level="Info"
+						category="Validation">
+						<message>
+							Validating AttributeEqual (Text='Cliquez sur Installer pour commencer l'installation. Cliquez sur Pr&#233;c&#233;dent pour v&#233;rifier ou modifier vos param&#232;tres d'installation. Cliquez sur Annuler pour quitter l'Assistant.') on item 'InstallationDeMyrian.Text460'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Installation de Myrian']/text[@controlid='460']"
+							fullname="setupMyrian_complexFlowRepository.InstallationDeMyrian.Text460"
+							id="f1d6a7ac2ef24ed8b0abf0b104a804db"
+							timeout="60000"
+							codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\Recording1.cs"
+							codeline="226"
+							itemindex="36"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:23.538"
+						timeRelativeToTestModuleStartTime="00:20.571"
+						timeWallClock="15:28:24"
+						time="00:23.538"
+						level="Success"
+						category="Validation">
+						<message>
+							Attribute 'Text' of element for item 'setupMyrian_complexFlowRepository.InstallationDeMyrian.Text460' does match the specified value.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Installation de Myrian']/text[@controlid='460']"
+							fullname="setupMyrian_complexFlowRepository.InstallationDeMyrian.Text460"
+							id="f1d6a7ac2ef24ed8b0abf0b104a804db"
+							timeout="60000"
+							codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\Recording1.cs"
+							codeline="227"
+							loglvl="Success"
+							itemindex="36"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:23.720"
+						timeRelativeToTestModuleStartTime="00:20.753"
+						timeWallClock="15:28:24"
+						time="00:23.720"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'InstallationDeMyrian.Button311' at 43;13.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Installation de Myrian']/button[@controlid='311']"
+							fullname="setupMyrian_complexFlowRepository.InstallationDeMyrian.Button311"
+							id="08ff491f4a3a49df9f0e7cccee0a1aad"
+							timeout="60000"
+							codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\Recording1.cs"
+							codeline="230"
+							itemindex="37"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:24.532"
+						timeRelativeToTestModuleStartTime="00:21.565"
+						timeWallClock="15:28:24"
+						time="00:24.532"
+						level="Info"
+						category="Validation">
+						<message>
+							Validating AttributeEqual (Text='&amp;Oui') on item 'InstallationDeMyrian.Button380'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Installation de Myrian']/button[@controlid='380']"
+							fullname="setupMyrian_complexFlowRepository.InstallationDeMyrian.Button380"
+							id="341556601c5c4024888dde4f701efec4"
+							timeout="60000"
+							codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\Recording1.cs"
+							codeline="234"
+							itemindex="38"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:24.654"
+						timeRelativeToTestModuleStartTime="00:21.687"
+						timeWallClock="15:28:25"
+						time="00:24.654"
+						level="Success"
+						category="Validation">
+						<message>
+							Attribute 'Text' of element for item 'setupMyrian_complexFlowRepository.InstallationDeMyrian.Button380' does match the specified value.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Installation de Myrian']/button[@controlid='380']"
+							fullname="setupMyrian_complexFlowRepository.InstallationDeMyrian.Button380"
+							id="341556601c5c4024888dde4f701efec4"
+							timeout="60000"
+							codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\Recording1.cs"
+							codeline="235"
+							loglvl="Success"
+							itemindex="38"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:24.794"
+						timeRelativeToTestModuleStartTime="00:21.827"
+						timeWallClock="15:28:25"
+						time="00:24.794"
+						level="Info"
+						category="Validation">
+						<message>
+							Validating AttributeEqual (Text='&amp;Non') on item 'InstallationDeMyrian.Button379'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Installation de Myrian']/button[@controlid='379']"
+							fullname="setupMyrian_complexFlowRepository.InstallationDeMyrian.Button379"
+							id="c3ffcc14c1df4aa3a1b8a17e1ac826d3"
+							timeout="60000"
+							codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\Recording1.cs"
+							codeline="238"
+							itemindex="39"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:24.924"
+						timeRelativeToTestModuleStartTime="00:21.957"
+						timeWallClock="15:28:25"
+						time="00:24.924"
+						level="Success"
+						category="Validation">
+						<message>
+							Attribute 'Text' of element for item 'setupMyrian_complexFlowRepository.InstallationDeMyrian.Button379' does match the specified value.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Installation de Myrian']/button[@controlid='379']"
+							fullname="setupMyrian_complexFlowRepository.InstallationDeMyrian.Button379"
+							id="c3ffcc14c1df4aa3a1b8a17e1ac826d3"
+							timeout="60000"
+							codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\Recording1.cs"
+							codeline="239"
+							loglvl="Success"
+							itemindex="39"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:25.094"
+						timeRelativeToTestModuleStartTime="00:22.127"
+						timeWallClock="15:28:25"
+						time="00:25.094"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'InstallationDeMyrian.Button379' at 50;14.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Installation de Myrian']/button[@controlid='379']"
+							fullname="setupMyrian_complexFlowRepository.InstallationDeMyrian.Button379"
+							id="c3ffcc14c1df4aa3a1b8a17e1ac826d3"
+							timeout="60000"
+							codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\Recording1.cs"
+							codeline="242"
+							itemindex="40"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:25.871"
+						timeRelativeToTestModuleStartTime="00:22.905"
+						timeWallClock="15:28:26"
+						time="00:25.871"
+						level="Info"
+						category="Validation">
+						<message>
+							Validating AttributeEqual (Text='Cliquez sur Installer pour commencer l'installation. Cliquez sur Pr&#233;c&#233;dent pour v&#233;rifier ou modifier vos param&#232;tres d'installation. Cliquez sur Annuler pour quitter l'Assistant.') on item 'InstallationDeMyrian.Text460'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Installation de Myrian']/text[@controlid='460']"
+							fullname="setupMyrian_complexFlowRepository.InstallationDeMyrian.Text460"
+							id="f1d6a7ac2ef24ed8b0abf0b104a804db"
+							timeout="60000"
+							codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\Recording1.cs"
+							codeline="246"
+							itemindex="41"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:25.981"
+						timeRelativeToTestModuleStartTime="00:23.015"
+						timeWallClock="15:28:26"
+						time="00:25.981"
+						level="Success"
+						category="Validation">
+						<message>
+							Attribute 'Text' of element for item 'setupMyrian_complexFlowRepository.InstallationDeMyrian.Text460' does match the specified value.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Installation de Myrian']/text[@controlid='460']"
+							fullname="setupMyrian_complexFlowRepository.InstallationDeMyrian.Text460"
+							id="f1d6a7ac2ef24ed8b0abf0b104a804db"
+							timeout="60000"
+							codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\Recording1.cs"
+							codeline="247"
+							loglvl="Success"
+							itemindex="41"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:26.123"
+						timeRelativeToTestModuleStartTime="00:23.157"
+						timeWallClock="15:28:26"
+						time="00:26.123"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'InstallationDeMyrian.Button408' at 55;11.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Installation de Myrian']/button[@controlid='408']"
+							fullname="setupMyrian_complexFlowRepository.InstallationDeMyrian.Button408"
+							id="f5f74d36f3514165b7075a11bc3607fd"
+							timeout="60000"
+							codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\Recording1.cs"
+							codeline="250"
+							itemindex="42"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:26.914"
+						timeRelativeToTestModuleStartTime="00:23.948"
+						timeWallClock="15:28:27"
+						time="00:26.914"
+						level="Info"
+						category="Validation">
+						<message>
+							Validating AttributeEqual (Text='Veuillez patienter pendant que l'Assistant Installation installe Myrian.') on item 'InstallationDeMyrian.Text383'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Installation de Myrian']/text[@controlid='383']"
+							fullname="setupMyrian_complexFlowRepository.InstallationDeMyrian.Text383"
+							id="b998a9a2cf6544b6b66e45958217f367"
+							timeout="60000"
+							codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\Recording1.cs"
+							codeline="254"
+							itemindex="43"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:27.070"
+						timeRelativeToTestModuleStartTime="00:24.104"
+						timeWallClock="15:28:27"
+						time="00:27.070"
+						level="Success"
+						category="Validation">
+						<message>
+							Attribute 'Text' of element for item 'setupMyrian_complexFlowRepository.InstallationDeMyrian.Text383' does match the specified value.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Installation de Myrian']/text[@controlid='383']"
+							fullname="setupMyrian_complexFlowRepository.InstallationDeMyrian.Text383"
+							id="b998a9a2cf6544b6b66e45958217f367"
+							timeout="60000"
+							codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\Recording1.cs"
+							codeline="255"
+							loglvl="Success"
+							itemindex="43"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:27.250"
+						timeRelativeToTestModuleStartTime="00:24.284"
+						timeWallClock="15:28:27"
+						time="00:27.250"
+						level="Info"
+						category="Validation"
+						errimg="images_setupMyr_dbe560e8\setupMyr_dbe560e8_c0f3d609_trace.jpg"
+						errthumb="images_setupMyr_dbe560e8\setupMyr_dbe560e8_c0f3d609_trace_thumb.jpg">
+						<message>
+							Validating AttributeEqual (Text='') on item 'MyrianRConfigurationC2005Intrasens.Text1004'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title~'^Myrian®\ Configuration\ \(C\)']/?/?/text[@controlid='1004']"
+							fullname="setupMyrian_complexFlowRepository.MyrianRConfigurationC2005Intrasens.Text1004"
+							id="03439ec2527f4e33bc1bdf04f45246ba"
+							timeout="60000"
+							codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\Recording1.cs"
+							codeline="258"
+							itemindex="44"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:48.550"
+						timeRelativeToTestModuleStartTime="00:45.583"
+						timeWallClock="15:28:49"
+						time="00:48.550"
+						level="Failure"
+						category="Validation"
+						errimg="images_setupMyr_dbe560e8\setupMyr_dbe560e8_d856bd4f_trace.jpg"
+						errthumb="images_setupMyr_dbe560e8\setupMyr_dbe560e8_d856bd4f_trace_thumb.jpg">
+						<message>
+							Attribute 'Text' of element for item 'setupMyrian_complexFlowRepository.MyrianRConfigurationC2005Intrasens.Text1004' does not match the specified value (actual='CIBS', expected='').
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title~'^Myrian®\ Configuration\ \(C\)']/?/?/text[@controlid='1004']"
+							fullname="setupMyrian_complexFlowRepository.MyrianRConfigurationC2005Intrasens.Text1004"
+							id="03439ec2527f4e33bc1bdf04f45246ba"
+							timeout="60000"
+							codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\Recording1.cs"
+							codeline="259"
+							loglvl="Failure"
+							itemindex="44"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:48.610"
+						timeRelativeToTestModuleStartTime="00:45.643"
+						timeWallClock="15:28:49"
+						time="00:48.610"
+						level="Error"
+						category="Module"
+						errimg="images_setupMyr_dbe560e8\setupMyr_dbe560e8_fe6c6e0e_trace.jpg"
+						errthumb="images_setupMyr_dbe560e8\setupMyr_dbe560e8_fe6c6e0e_trace_thumb.jpg">
+						<message>
+							Module execution was aborted because a validation step has failed. Attribute 'Text' of element for item 'setupMyrian_complexFlowRepository.MyrianRConfigurationC2005Intrasens.Text1004' does not match the specified value (actual='CIBS', expected='').
+						</message>
+						<metainfo
+							stacktrace="   à Ranorex.Validate.IsTrueInternal(Boolean condition, String message, Options options, RepoItemInfo itemInfo)
+   à Ranorex.Validate.AttributeInternal(Element element, String name, Object value, String message, Options options, RepoItemInfo itemInfo)
+   à Ranorex.Validate.Attribute(RepoItemInfo itemInfo, String name, Object value, String message, Options options)
+   à Ranorex.Validate.Attribute(RepoItemInfo itemInfo, String name, Object value)
+   à setupMyrian_complexFlow.Recording1.Ranorex.Core.Testing.ITestModule.Run() dans c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\Recording1.cs:ligne 259
+   à Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+							codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\Recording1.cs"
+							codeline="259"
+							type="repoitem"
+							path="/form[@title~'^Myrian®\ Configuration\ \(C\)']/?/?/text[@controlid='1004']"
+							fullname="setupMyrian_complexFlowRepository.MyrianRConfigurationC2005Intrasens.Text1004"
+							id="03439ec2527f4e33bc1bdf04f45246ba"
+							timeout="60000"
+							loglvl="Error"
+							itemindex="44"/>
+					</item>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

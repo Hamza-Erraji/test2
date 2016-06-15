@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="ad382b24bbeef68"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="hamza.erraji"
+		host="EQL-REQ120"
+		rxversion="6.0.0.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="fr-FR"
+		screenresolution="3840x1080"
+		timestamp="06/06/2016 15:44:15"
+		timestampiso="2016-06-06T13:44:15"
+		timeoutfactor="1"
+		module="launchMyrian">
+		<detail>
+			launchMyrian
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.099"
+			timeRelativeToTestModuleStartTime="00:00.101"
+			timeWallClock="15:44:15"
+			time="00:00.099"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='&amp;Copier la cl&#233; dans le presse-papiers') on item 'MyrianR200.Button1052'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Myrian® 2.0.0']/container[@instance='1']/container[@instance='0']/button[@controlid='1052']"
+				fullname="setupMyrian_complexFlowRepository.MyrianR200.Button1052"
+				id="712faec60618491eb402b443f523054a"
+				timeout="60000"
+				codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\launchMyrian.cs"
+				codeline="82"
+				itemindex="18"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.471"
+			timeRelativeToTestModuleStartTime="00:00.473"
+			timeWallClock="15:44:16"
+			time="00:00.471"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'setupMyrian_complexFlowRepository.MyrianR200.Button1052' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Myrian® 2.0.0']/container[@instance='1']/container[@instance='0']/button[@controlid='1052']"
+				fullname="setupMyrian_complexFlowRepository.MyrianR200.Button1052"
+				id="712faec60618491eb402b443f523054a"
+				timeout="60000"
+				codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\launchMyrian.cs"
+				codeline="83"
+				loglvl="Success"
+				itemindex="18"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.591"
+			timeRelativeToTestModuleStartTime="00:00.593"
+			timeWallClock="15:44:16"
+			time="00:00.591"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MyrianR200.Button737' at 30;28.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Myrian® 2.0.0']/?/?/button[@controlid='737']"
+				fullname="setupMyrian_complexFlowRepository.MyrianR200.Button737"
+				id="c6f96bbfae604fda843fe22f4e8ab9f9"
+				timeout="60000"
+				codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\launchMyrian.cs"
+				codeline="86"
+				itemindex="19"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.516"
+			timeRelativeToTestModuleStartTime="00:02.518"
+			timeWallClock="15:44:18"
+			time="00:02.516"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'MyrianR200OuvertureDeSession.ComboBox880'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'^Myrian®\ 2\.0\.0\ -\ Ouverture']/combobox[@controlid='880']"
+				fullname="setupMyrian_complexFlowRepository.MyrianR200OuvertureDeSession.ComboBox880"
+				id="4670a8c8802b45a885a7e5ba44d895c3"
+				timeout="60000"
+				codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\launchMyrian.cs"
+				codeline="90"
+				itemindex="20"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.059"
+			timeRelativeToTestModuleStartTime="00:03.061"
+			timeWallClock="15:44:18"
+			time="00:03.059"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'ComboBox880' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'^Myrian®\ 2\.0\.0\ -\ Ouverture']/combobox[@controlid='880']"
+				fullname="setupMyrian_complexFlowRepository.MyrianR200OuvertureDeSession.ComboBox880"
+				id="4670a8c8802b45a885a7e5ba44d895c3"
+				timeout="60000"
+				codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\launchMyrian.cs"
+				codeline="91"
+				loglvl="Success"
+				itemindex="20"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.169"
+			timeRelativeToTestModuleStartTime="00:03.171"
+			timeWallClock="15:44:18"
+			time="00:03.169"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MyrianR200OuvertureDeSession.Button2' at 37;12.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'^Myrian®\ 2\.0\.0\ -\ Ouverture']/button[@controlid='2']"
+				fullname="setupMyrian_complexFlowRepository.MyrianR200OuvertureDeSession.Button2"
+				id="c1e35d62ed1140948817d84d1842b4d3"
+				timeout="60000"
+				codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\launchMyrian.cs"
+				codeline="94"
+				itemindex="21"
+				loglvl="Info"/>
+		</item>
+	</activity>
+</report>

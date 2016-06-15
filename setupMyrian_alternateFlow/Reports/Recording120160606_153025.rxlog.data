@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="8.73s"
+		durationms="8732"
+		type="root"
+		rid="27fdb0628c5266af"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="hamza.erraji"
+		host="EQL-REQ120"
+		rxversion="6.0.0.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="fr-FR"
+		screenresolution="3840x1080"
+		timestamp="06/06/2016 15:30:28"
+		timestampiso="2016-06-06T13:30:28"
+		timeoutfactor="1"
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.061"
+			timeRelativeToTestModuleStartTime="00:00.062"
+			timeWallClock="15:30:28"
+			time="00:00.061"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Capital}CIBS' with focus on 'MyrianRConfigurationC2005Intrasens.Text1004'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'^Myrian®\ Configuration\ \(C\)']/?/?/text[@controlid='1004']"
+				fullname="setupMyrian_complexFlowRepository.MyrianRConfigurationC2005Intrasens.Text1004"
+				id="03439ec2527f4e33bc1bdf04f45246ba"
+				timeout="60000"
+				codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\Recording1.cs"
+				codeline="82"
+				itemindex="58"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.208"
+			timeRelativeToTestModuleStartTime="00:00.209"
+			timeWallClock="15:30:28"
+			time="00:00.208"
+			level="Warn"
+			category="Qt">
+			<message>
+				Failed to instrument Qt process. Please make sure you have enough privileges to access the process and a supported version of Qt.<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="QtWindow"
+				codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\Recording1.cs"
+				codeline="83"
+				loglvl="Warn"
+				itemindex="58"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.874"
+			timeRelativeToTestModuleStartTime="00:01.875"
+			timeWallClock="15:30:30"
+			time="00:01.874"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MyrianRConfigurationC2005Intrasens.Text1005' at 18;11.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'^Myrian®\ Configuration\ \(C\)']/?/?/text[@controlid='1005']"
+				fullname="setupMyrian_complexFlowRepository.MyrianRConfigurationC2005Intrasens.Text1005"
+				id="f8b301393a134724af83d812b16075ee"
+				timeout="60000"
+				codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\Recording1.cs"
+				codeline="86"
+				itemindex="59"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.682"
+			timeRelativeToTestModuleStartTime="00:02.683"
+			timeWallClock="15:30:31"
+			time="00:02.682"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'PNE{NumPad4}' with focus on 'MyrianRConfigurationC2005Intrasens.Text1005'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'^Myrian®\ Configuration\ \(C\)']/?/?/text[@controlid='1005']"
+				fullname="setupMyrian_complexFlowRepository.MyrianRConfigurationC2005Intrasens.Text1005"
+				id="f8b301393a134724af83d812b16075ee"
+				timeout="60000"
+				codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\Recording1.cs"
+				codeline="90"
+				itemindex="60"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.925"
+			timeRelativeToTestModuleStartTime="00:03.926"
+			timeWallClock="15:30:32"
+			time="00:03.925"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MyrianRConfigurationC2005Intrasens.Text1006' at 12;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'^Myrian®\ Configuration\ \(C\)']/?/?/text[@controlid='1006']"
+				fullname="setupMyrian_complexFlowRepository.MyrianRConfigurationC2005Intrasens.Text1006"
+				id="4830162b182449969ae4626ce84509eb"
+				timeout="60000"
+				codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\Recording1.cs"
+				codeline="94"
+				itemindex="61"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.723"
+			timeRelativeToTestModuleStartTime="00:04.724"
+			timeWallClock="15:30:33"
+			time="00:04.723"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'LCQC' with focus on 'MyrianRConfigurationC2005Intrasens.Text1006'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'^Myrian®\ Configuration\ \(C\)']/?/?/text[@controlid='1006']"
+				fullname="setupMyrian_complexFlowRepository.MyrianRConfigurationC2005Intrasens.Text1006"
+				id="4830162b182449969ae4626ce84509eb"
+				timeout="60000"
+				codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\Recording1.cs"
+				codeline="98"
+				itemindex="62"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.173"
+			timeRelativeToTestModuleStartTime="00:06.174"
+			timeWallClock="15:30:34"
+			time="00:06.173"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MyrianRConfigurationC2005Intrasens.Text1007' at 11;11.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'^Myrian®\ Configuration\ \(C\)']/?/?/text[@controlid='1007']"
+				fullname="setupMyrian_complexFlowRepository.MyrianRConfigurationC2005Intrasens.Text1007"
+				id="f7018cb8e9f2422db19ab8fadb552693"
+				timeout="60000"
+				codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\Recording1.cs"
+				codeline="102"
+				itemindex="63"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.963"
+			timeRelativeToTestModuleStartTime="00:06.964"
+			timeWallClock="15:30:35"
+			time="00:06.963"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'ACMN' with focus on 'MyrianRConfigurationC2005Intrasens.Text1007'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'^Myrian®\ Configuration\ \(C\)']/?/?/text[@controlid='1007']"
+				fullname="setupMyrian_complexFlowRepository.MyrianRConfigurationC2005Intrasens.Text1007"
+				id="f7018cb8e9f2422db19ab8fadb552693"
+				timeout="60000"
+				codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\Recording1.cs"
+				codeline="106"
+				itemindex="64"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.429"
+			timeRelativeToTestModuleStartTime="00:08.430"
+			timeWallClock="15:30:37"
+			time="00:08.429"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MyrianRConfigurationC2005Intrasens.Text1008' at 19;12.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'^Myrian®\ Configuration\ \(C\)']/?/?/text[@controlid='1008']"
+				fullname="setupMyrian_complexFlowRepository.MyrianRConfigurationC2005Intrasens.Text1008"
+				id="e6a893d7578b47628ad272a1b8aba62b"
+				timeout="60000"
+				codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\Recording1.cs"
+				codeline="110"
+				itemindex="65"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.732"
+			timeRelativeToTestModuleStartTime="00:08.733"
+			timeWallClock="15:30:37"
+			time="00:08.732"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

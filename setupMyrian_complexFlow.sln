@@ -1,0 +1,18 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+# Ranorex Studio 6.0
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "setupMyrian_complexFlow", "setupMyrian_complexFlow\setupMyrian_complexFlow.csproj", "{659F9DC4-D220-466D-B067-6587C682409B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{659F9DC4-D220-466D-B067-6587C682409B}.Debug|x86.Build.0 = Debug|x86
+		{659F9DC4-D220-466D-B067-6587C682409B}.Debug|x86.ActiveCfg = Debug|x86
+		{659F9DC4-D220-466D-B067-6587C682409B}.Release|x86.Build.0 = Release|x86
+		{659F9DC4-D220-466D-B067-6587C682409B}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+EndGlobal

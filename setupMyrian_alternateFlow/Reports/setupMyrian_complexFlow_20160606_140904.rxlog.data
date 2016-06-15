@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="d1d75c45b1f6d20"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="1"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="hamza.erraji"
+		host="EQL-REQ120"
+		rxversion="6.0.0.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="fr-FR"
+		screenresolution="3840x1080"
+		timestamp="06/06/2016 14:09:04"
+		timestampiso="2016-06-06T12:09:04"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Success"
+			duration="2.66s"
+			durationms="2663"
+			type="test suite"
+			rid="78ff61fd12f71e0"
+			totalerrorcount="0"
+			totalwarningcount="0"
+			totalsuccesscount="1"
+			totalfailedcount="0"
+			totalblockedcount="0"
+			testsuitename="setupMyrian_complexFlow"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="1">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Success"
+				duration="2.66s"
+				durationms="2659"
+				type="test case"
+				rid="4abde98bed21010"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesscount="1"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				testcasename="TestCase"
+				testcaseid="7c23412b-21fe-4624-b490-8e2f0313f524"
+				maxchildren="0">
+				<params>
+					<param
+						name="codeLine">
+						2.0_prep
+					</param>
+					<param
+						name="destDir">
+						C:\
+					</param>
+					<param
+						name="NewParameter">
+					</param>
+				</params>
+				<detail>
+				</detail>
+				<activity
+					result="Success"
+					duration="2.65s"
+					durationms="2654"
+					type="test module"
+					rid="1bbaa0cc37eaee01"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="CopySetupFromHeracles"
+					moduleid="b2505c28-c778-47d8-bc60-f39788536785"
+					moduletype="UserCode">
+					<detail>
+					</detail>
+					<varbindings>
+						<varbinding
+							name="codeLine"
+							value="2.0_prep"/>
+						<varbinding
+							name="destDir"
+							value="C:\"/>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.045"
+						timeRelativeToTestModuleStartTime="00:00.002"
+						timeWallClock="14:09:04"
+						time="00:00.045"
+						level="Info"
+						category="Data">
+						<message>
+							Current variable values:<br/>$codeLine = '2.0_prep', $destDir = 'C:\'
+						</message>
+						<metainfo
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.852"
+						timeRelativeToTestModuleStartTime="00:00.809"
+						timeWallClock="14:09:05"
+						time="00:00.852"
+						level="Info"
+						category="User">
+						<message>
+							R&#233;pertoire source du Setup:\\192.168.1.223\DepotCompilationAutomatique\2.0_prep_b12_20160606\Setups\Myrian_installer
+						</message>
+						<metainfo
+							codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\CopySetupFromHeracles.cs"
+							codeline="140"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.903"
+						timeRelativeToTestModuleStartTime="00:00.860"
+						timeWallClock="14:09:05"
+						time="00:00.903"
+						level="Info"
+						category="User">
+						<message>
+							R&#233;pertoire de destination du Setup :C:\
+						</message>
+						<metainfo
+							codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\CopySetupFromHeracles.cs"
+							codeline="141"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:01.012"
+						timeRelativeToTestModuleStartTime="00:00.969"
+						timeWallClock="14:09:05"
+						time="00:01.012"
+						level="Info"
+						category="User">
+						<message>
+							Copie en cours ...
+						</message>
+						<metainfo
+							codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\CopySetupFromHeracles.cs"
+							codeline="142"
+							loglvl="Info"/>
+					</item>
+				</activity>
+				<activity
+					result="Success"
+					duration="1ms"
+					durationms="1"
+					type="test module"
+					rid="9a20b44aa5766ad"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="Recording1"
+					moduleid="79f0650c-6dc5-4dc5-a3ea-6428cbe7544d"
+					moduletype="Recording">
+					<detail>
+					</detail>
+					<varbindings/>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

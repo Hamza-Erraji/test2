@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="14.69s"
+		durationms="14692"
+		type="root"
+		rid="1b0925c8225921b"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="hamza.erraji"
+		host="EQL-REQ120"
+		rxversion="6.0.0.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="fr-FR"
+		screenresolution="3840x1080"
+		timestamp="06/06/2016 15:30:02"
+		timestampiso="2016-06-06T13:30:02"
+		timeoutfactor="1"
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.079"
+			timeRelativeToTestModuleStartTime="00:00.079"
+			timeWallClock="15:30:02"
+			time="00:00.079"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MyrianRConfiguration.Button7' at 44;17.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Myrian® Configuration']/button[@controlid='7']"
+				fullname="setupMyrian_complexFlowRepository.MyrianRConfiguration.Button7"
+				id="684f294dc79f460aaf7f6b0ebecb35f2"
+				timeout="60000"
+				codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\Recording1.cs"
+				codeline="82"
+				itemindex="56"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.379"
+			timeRelativeToTestModuleStartTime="00:00.379"
+			timeWallClock="15:30:02"
+			time="00:00.379"
+			level="Warn"
+			category="Qt">
+			<message>
+				Failed to instrument Qt process. Please make sure you have enough privileges to access the process and a supported version of Qt.<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="QtWindow"
+				codefile="c:\Users\hamza.erraji\Documents\Ranorex\RanorexStudio Projects\setupMyrian_complexFlow\setupMyrian_complexFlow\Recording1.cs"
+				codeline="83"
+				loglvl="Warn"
+				itemindex="56"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.692"
+			timeRelativeToTestModuleStartTime="00:14.692"
+			timeWallClock="15:30:16"
+			time="00:14.692"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>
