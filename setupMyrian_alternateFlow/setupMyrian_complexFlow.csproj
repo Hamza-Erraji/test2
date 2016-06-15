@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{659F9DC4-D220-466D-B067-6587C682409B}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>setupMyrian_complexFlow</RootNamespace>
+    <AssemblyName>setupMyrian_complexFlow</AssemblyName>
+    <RanorexVersion>6.0</RanorexVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <projectdefaultrepository>02136f0b-5a54-4931-8a3b-94597523a038</projectdefaultrepository>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ranorex.Core" />
+    <Reference Include="Ranorex.Plugin.ChromeWeb" />
+    <Reference Include="Ranorex.Plugin.Flex" />
+    <Reference Include="Ranorex.Plugin.Java" />
+    <Reference Include="Ranorex.Plugin.Mobile" />
+    <Reference Include="Ranorex.Plugin.MozillaWeb" />
+    <Reference Include="Ranorex.Plugin.Msaa" />
+    <Reference Include="Ranorex.Plugin.Office" />
+    <Reference Include="Ranorex.Plugin.Qt" />
+    <Reference Include="Ranorex.Plugin.RawText" />
+    <Reference Include="Ranorex.Plugin.Sap" />
+    <Reference Include="Ranorex.Plugin.Uia" />
+    <Reference Include="Ranorex.Plugin.Web" />
+    <Reference Include="Ranorex.Plugin.Win32" />
+    <Reference Include="Ranorex.Plugin.WinForms" />
+    <Reference Include="Ranorex.Plugin.Wpf" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>cffdb05b-5556-4b19-b370-692271c3b7b8</id>
+    </Compile>
+    <Compile Include="CopySetupFromHeracles.cs">
+      <id>e9e6852d-e2eb-4be3-b090-ac79789137bb</id>
+    </Compile>
+    <Compile Include="launchMyrian.cs">
+      <BoundTo>2ada8680-1c13-4e83-94f2-801f953e9b72</BoundTo>
+      <DependentUpon>launchMyrian.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>016b01c1-6908-426d-a767-5517636caec1</id>
+    </Compile>
+    <Compile Include="launchMyrian.UserCode.cs">
+      <BoundTo>2ada8680-1c13-4e83-94f2-801f953e9b72</BoundTo>
+      <DependentUpon>launchMyrian.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>919aac67-0901-4b53-a150-84ee88d11c91</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>1ca366e5-4829-42a6-9593-93319cf74437</id>
+    </Compile>
+    <Compile Include="SetupMyrian.cs">
+      <BoundTo>d0bf3aa9-8cf5-4a61-8a6e-2c78ce0f8c33</BoundTo>
+      <DependentUpon>SetupMyrian.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b5b9dc97-4d86-4ecc-9a0c-d723e07e4c1c</id>
+    </Compile>
+    <Compile Include="SetupMyrian.UserCode.cs">
+      <BoundTo>d0bf3aa9-8cf5-4a61-8a6e-2c78ce0f8c33</BoundTo>
+      <DependentUpon>SetupMyrian.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>a4383614-77c4-4506-b402-79d0af5ce571</id>
+    </Compile>
+    <Compile Include="setupMyrian_complexFlowRepository.cs">
+      <BoundTo>02136f0b-5a54-4931-8a3b-94597523a038</BoundTo>
+      <DependentUpon>setupMyrian_complexFlowRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>ca6276fb-1ba5-4323-b407-174f701d7dca</id>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <id>1297db89-7db4-4e08-afef-312bf9fa4868</id>
+    </None>
+    <None Include="launchMyrian.rxrec">
+      <BoundTo>02136f0b-5a54-4931-8a3b-94597523a038</BoundTo>
+      <id>2ada8680-1c13-4e83-94f2-801f953e9b72</id>
+      <recordtableid>c5ad3ad2-99fd-49f9-96ce-95a4995e50b0</recordtableid>
+    </None>
+    <None Include="SetupMyrian.rxrec">
+      <BoundTo>02136f0b-5a54-4931-8a3b-94597523a038</BoundTo>
+      <id>d0bf3aa9-8cf5-4a61-8a6e-2c78ce0f8c33</id>
+      <recordtableid>79f0650c-6dc5-4dc5-a3ea-6428cbe7544d</recordtableid>
+    </None>
+    <None Include="setupMyrian_complexFlowRepository.rximg">
+      <BoundTo>02136f0b-5a54-4931-8a3b-94597523a038</BoundTo>
+      <DependentUpon>setupMyrian_complexFlowRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>b9c6b362-4683-4045-ad1d-d7d4b2dc9695</id>
+    </None>
+    <None Include="setupMyrian_complexFlowRepository.rxrep">
+      <id>02136f0b-5a54-4931-8a3b-94597523a038</id>
+      <repoid>05b04782-834f-4b7a-bc66-de4b6a7ed5ef</repoid>
+      <reporootid>db8db7e3-4e82-45a7-8489-d51b5e5bca05</reporootid>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="setupMyrian_complexFlow.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>18912693-57e4-471c-8f74-da596cee6716</id>
+    </Content>
+    <Content Include="setupMyrian_complexFlow.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>52f2b821-9bb8-4ff4-8e6f-3d843ab7e638</id>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets" Condition="Exists('$(MSBuildExtensionsPath)\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets')" />
+</Project>

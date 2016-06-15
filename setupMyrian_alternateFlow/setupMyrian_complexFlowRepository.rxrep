@@ -1,0 +1,805 @@
+﻿<repository
+name="setupMyrian_complexFlowRepository"
+id="05b04782-834f-4b7a-bc66-de4b6a7ed5ef"
+rxversion="6.0">
+	<codegen
+	classname="setupMyrian_complexFlowRepository"
+	namespace="setupMyrian_complexFlow"/>
+	<rootfolder
+	name="Root"
+	id="db8db7e3-4e82-45a7-8489-d51b5e5bca05"
+	searchtimeout="0ms"
+	capname="unknown"
+	isrooted="True"
+	usecache="True">
+		<appfolder
+		name="MyrianR2010Intrasense"
+		id="73e66c68-e966-46ac-9e99-40b5230ee7fa"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@title='Myrian® 2010 Intrasense']"
+		addcaps="form,nativewindow"
+		isrooted="True"
+		usecache="False">
+			<item
+			name="CheckBox410"
+			id="71573a1c-9adf-44d4-bf40-505354b15239"
+			searchtimeout="30000ms"
+			capname="checkbox"
+			refpath="/form[@title='Myrian® 2010 Intrasense']/checkbox[@controlid='410']"
+			addcaps="checkbox,nativewindow"
+			refimgid="f860251e-7aa8-463b-9893-dc4207dcd286">
+				/form[@title='Myrian&#174; 2010 Intrasense']/checkbox[@controlid='410']
+			</item>
+			<item
+			name="ComboBox400"
+			id="344d5550-862b-4b95-8231-559f31d8d3fe"
+			searchtimeout="30000ms"
+			capname="combobox"
+			refpath="/form[@title='Myrian® 2010 Intrasense']/combobox[@controlid='400']"
+			addcaps="combobox,nativewindow"
+			refimgid="451a6a1a-0383-4350-a656-d7aff790fa4f">
+				/form[@title='Myrian&#174; 2010 Intrasense']/combobox[@controlid='400']
+			</item>
+			<item
+			name="Button1"
+			id="c2e63e1d-25e1-42c4-893f-796edf3cf071"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@title='Myrian® 2010 Intrasense']/button[@controlid='1']"
+			addcaps="button,nativewindow"
+			refimgid="cced9edf-fcd1-4ce2-abf1-c94792dc2174">
+				/form[@title='Myrian&#174; 2010 Intrasense']/button[@controlid='1']
+			</item>
+			<item
+			name="Button2"
+			id="83391648-41ad-43c5-8c62-8f25a69f06fe"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@title='Myrian® 2010 Intrasense']/button[@controlid='2']"
+			addcaps="button,nativewindow"
+			refimgid="f8bd620a-ced0-4329-98dd-fb673ea02525">
+				/form[@title='Myrian&#174; 2010 Intrasense']/button[@controlid='2']
+			</item>
+			<basepath>
+				/form[@title='Myrian&#174; 2010 Intrasense']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAD0SURBVDhPlZLBEYMgEEXpiYK80YLXnCzBGW45
+pAIrsADuFmAhZN/qKlExyZ/5ggz/LYu6O7Vtm++8bqsri5x7XHocRxkdrgtASDl7Gc28/wU4hWO6
+B3Rdl83oFL4DEGqaRi2vCuBZhn04tFBWNMDr+dwANX2cwKpa2ADfPAwD43J0UwlAfd+r+e5HkasC
+OE2IUVZiTilotfJktHAJYI59kguTSwtpBxDy3m8QDSMCSQKYOdXneaa2gmSLVp+mae+71BWA+bpZ
+A6zjnwFsxElacHIXnMi8xnYdAawRpmcA2oZAtKXlDk5i0bxpaYXY+heews69ATtP79jMAAFjAAAA
+AElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		name="InstallationDeMyrian"
+		id="7e9bb812-3dd1-4d70-987d-15df6d67f89b"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@title='Installation de Myrian']"
+		addcaps="form,nativewindow"
+		isrooted="True"
+		usecache="False">
+			<item
+			name="Text322"
+			id="7c5c5f29-d40d-40a0-ba78-e92d35a1cf84"
+			searchtimeout="30000ms"
+			capname="text"
+			refpath="/form[@title='Installation de Myrian']/text[@controlid='322']"
+			addcaps="text,nativewindow"
+			refimgid="35dbfe28-c48f-438e-95b7-d9f2f742f09e">
+				/form[@title='Installation de Myrian']/text[@controlid='322']
+			</item>
+			<item
+			name="Button374"
+			id="8ec6b82d-6b84-4d64-ad6b-cdeaadafa014"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@title='Installation de Myrian']/button[@controlid='374']"
+			addcaps="button,nativewindow"
+			refimgid="7c3f2eda-d58e-43cc-88cd-e0d83eb22454">
+				/form[@title='Installation de Myrian']/button[@controlid='374']
+			</item>
+			<item
+			name="Button311"
+			id="08ff491f-4a3a-49df-9f0e-7cccee0a1aad"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@title='Installation de Myrian']/button[@controlid='311']"
+			addcaps="button,nativewindow"
+			refimgid="769f87b4-0bb9-4129-94a5-eb6aa332854d">
+				/form[@title='Installation de Myrian']/button[@controlid='311']
+			</item>
+			<item
+			name="Button380"
+			id="34155660-1c5c-4024-888d-de4f701efec4"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@title='Installation de Myrian' and @processname='msiexec' and @class='MsiDialogCloseClass' and @instance='1']/button[@controlid='380']"
+			addcaps="button,nativewindow"
+			refimgid="a4eaea99-9970-4503-aa37-7acd2b9f9121">
+				/form[@title='Installation de Myrian']/button[@controlid='380']
+			</item>
+			<item
+			name="Button379"
+			id="c3ffcc14-c1df-4aa3-a1b8-a17e1ac826d3"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@title='Installation de Myrian' and @processname='msiexec' and @class='MsiDialogCloseClass' and @instance='1']/button[@controlid='379']"
+			addcaps="button,nativewindow"
+			refimgid="b6f1be6d-e05a-4136-aa54-b26db21a71c6">
+				/form[@title='Installation de Myrian']/button[@controlid='379']
+			</item>
+			<item
+			name="Text441"
+			id="f1ba4b98-e0ea-41e0-a0d0-de104c376300"
+			searchtimeout="30000ms"
+			capname="text"
+			refpath="/form[@title='Installation de Myrian']/text[@controlid='441']"
+			addcaps="text,nativewindow"
+			refimgid="858853f5-b70e-4d14-ad49-3d7019a7d82f">
+				/form[@title='Installation de Myrian']/text[@controlid='441']
+			</item>
+			<item
+			name="Button445"
+			id="636120a6-ebad-431f-8250-12d80c87d419"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@title='Installation de Myrian']/button[@controlid='445']"
+			addcaps="button,nativewindow"
+			refimgid="fa61553e-2d78-4a85-b6e3-39e283412646">
+				/form[@title='Installation de Myrian']/button[@controlid='445']
+			</item>
+			<item
+			name="Button352"
+			id="1b22c179-b13f-4fb4-be87-4814a10e90c7"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@title='Installation de Myrian']/button[@controlid='352']"
+			addcaps="button,nativewindow"
+			refimgid="ad1107e9-9e7d-4af4-a90d-a47c8a083851">
+				/form[@title='Installation de Myrian']/button[@controlid='352']
+			</item>
+			<item
+			name="Button408"
+			id="f5f74d36-f351-4165-b707-5a11bc3607fd"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@title='Installation de Myrian']/button[@controlid='408']"
+			addcaps="button,nativewindow"
+			refimgid="46411143-0333-4811-bf8b-c54a1f60293b">
+				/form[@title='Installation de Myrian']/button[@controlid='408']
+			</item>
+			<item
+			name="Text460"
+			id="f1d6a7ac-2ef2-4ed8-b0ab-f0b104a804db"
+			searchtimeout="30000ms"
+			capname="text"
+			refpath="/form[@title='Installation de Myrian']/text[@controlid='460']"
+			addcaps="text,nativewindow"
+			refimgid="75a29d8c-82aa-4442-b4f3-be7826b8b7c7">
+				/form[@title='Installation de Myrian']/text[@controlid='460']
+			</item>
+			<item
+			name="Text383"
+			id="b998a9a2-cf65-44b6-b66e-45958217f367"
+			searchtimeout="30000ms"
+			capname="text"
+			refpath="/form[@title='Installation de Myrian']/text[@controlid='383']"
+			addcaps="text,nativewindow"
+			refimgid="9c3a4aa7-58c6-482e-800c-9d3f874c6454">
+				/form[@title='Installation de Myrian']/text[@controlid='383']
+			</item>
+			<item
+			name="Button350"
+			id="3afd0653-4e7f-455c-b0d7-e2212ca8f264"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@title='Installation de Myrian']/button[@controlid='350']"
+			addcaps="button,nativewindow"
+			refimgid="dfe744fb-b26e-406d-9b4a-563c6d3737ed">
+				/form[@title='Installation de Myrian']/button[@controlid='350']
+			</item>
+			<basepath>
+				/form[@title='Installation de Myrian']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAD0SURBVDhPlZLBEYQgDEXpiYK80YLXPdkDNw9b
+gRVYAHcLsBA2D4gbXXXcP/NnMPCfIequNAxDvhP7cgyfqx545ZBy9hLATswzegzQMCbsYiX8DdDw
+LYCiygJs2Ae7bwAUuq4rfo/jBjjzDsBCpWEFzPN86Q2gb9eCBdx5mqYvoDWwA/R9L3ePOaVQ7L3f
+AejiFMAmV/EysBCjVCsE6PEal4B1XbNPMvEGoV0Cy7KUTlqwhlGSw1iWBRAlpKaGCbPXAHsdAax5
+qw6KjjDPjwAMUNtmBo5ucioQzpSQlQWoCSf5CgCYBxBz/x/ZsGr7M08HV+TcB6GgAijmjAHLAAAA
+AElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		name="MyrianRConfigurationC2005Intrasens"
+		id="b645cd9f-9e5d-46eb-a202-94b46f2fca95"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@title='Myrian® Configuration (C) 2005 Intrasense']"
+		addcaps="form,nativewindow"
+		isrooted="True"
+		usecache="False">
+			<item
+			name="Text1004"
+			id="03439ec2-527f-4e33-bc1b-df04f45246ba"
+			searchtimeout="30000ms"
+			capname="text"
+			refpath="/form[@title='Myrian® Configuration (C) 2005 Intrasense']/container[@class='#32770' and @instance='0']/text[@controlid='1004']"
+			addcaps="text,nativewindow"
+			refimgid="04b53501-5a42-4855-9855-0c38eafa1099">
+				/form[@title~'^Myrian&#174;\ Configuration\ \(C\)']/?/?/text[@controlid='1004']
+			</item>
+			<item
+			name="Text1005"
+			id="f8b30139-3a13-4724-af83-d812b16075ee"
+			searchtimeout="30000ms"
+			capname="text"
+			refpath="/form[@title='Myrian® Configuration (C) 2005 Intrasense']/container[@class='#32770' and @instance='0']/text[@controlid='1005']"
+			addcaps="text,nativewindow"
+			refimgid="03560f79-08c5-40d9-8d5c-ac9246e6560a">
+				/form[@title~'^Myrian&#174;\ Configuration\ \(C\)']/?/?/text[@controlid='1005']
+			</item>
+			<item
+			name="Text1006"
+			id="4830162b-1824-4996-9ae4-626ce84509eb"
+			searchtimeout="30000ms"
+			capname="text"
+			refpath="/form[@title='Myrian® Configuration (C) 2005 Intrasense']/container[@class='#32770' and @instance='0']/text[@controlid='1006']"
+			addcaps="text,nativewindow"
+			refimgid="94408c59-d697-4072-8f0e-c600ec05027a">
+				/form[@title~'^Myrian&#174;\ Configuration\ \(C\)']/?/?/text[@controlid='1006']
+			</item>
+			<item
+			name="Text1007"
+			id="f7018cb8-e9f2-422d-b19a-b8fadb552693"
+			searchtimeout="30000ms"
+			capname="text"
+			refpath="/form[@title='Myrian® Configuration (C) 2005 Intrasense']/container[@class='#32770' and @instance='0']/text[@controlid='1007']"
+			addcaps="text,nativewindow"
+			refimgid="88e324d6-83fc-41e2-8fc0-a6c20fc9de59">
+				/form[@title~'^Myrian&#174;\ Configuration\ \(C\)']/?/?/text[@controlid='1007']
+			</item>
+			<item
+			name="Text1008"
+			id="e6a893d7-578b-4762-8ad2-72a1b8aba62b"
+			searchtimeout="30000ms"
+			capname="text"
+			refpath="/form[@title='Myrian® Configuration (C) 2005 Intrasense']/container[@class='#32770' and @instance='0']/text[@controlid='1008']"
+			addcaps="text,nativewindow"
+			refimgid="1e30f042-567e-4012-a787-c9cf404f1c1f">
+				/form[@title~'^Myrian&#174;\ Configuration\ \(C\)']/?/?/text[@controlid='1008']
+			</item>
+			<item
+			name="Text1009"
+			id="7b7c1f5b-7d09-4f18-89b2-2c23a5424244"
+			searchtimeout="30000ms"
+			capname="text"
+			refpath="/form[@title='Myrian® Configuration (C) 2005 Intrasense']/container[@class='#32770' and @instance='0']/text[@controlid='1009']"
+			addcaps="text,nativewindow"
+			refimgid="b7be5fc7-0a5b-4a89-a023-a3029c35c300">
+				/form[@title~'^Myrian&#174;\ Configuration\ \(C\)']/?/?/text[@controlid='1009']
+			</item>
+			<item
+			name="Button1016"
+			id="fd7610ee-58ad-4984-a484-c286d8feff8f"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@title='Myrian® Configuration (C) 2005 Intrasense']/container[@class='#32770' and @instance='0']/button[@controlid='1016']"
+			addcaps="button,nativewindow"
+			refimgid="9b1537e4-58a8-4a14-b632-b49da8fb0b68">
+				/form[@title~'^Myrian&#174;\ Configuration\ \(C\)']/?/?/button[@controlid='1016']
+			</item>
+			<item
+			name="Button2"
+			id="3581af46-335b-4a13-896f-e153f3db8ad4"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@title='Myrian® Configuration (C) 2005 Intrasense']/button[@controlid='2']"
+			addcaps="button,nativewindow"
+			refimgid="f9ad7d8a-17aa-44da-b7e9-a2487dba54af">
+				/form[@title~'^Myrian&#174;\ Configuration\ \(C\)']/button[@controlid='2']
+			</item>
+			<item
+			name="Button1"
+			id="9267de8c-f533-4e8e-abd0-64fbcc223021"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@title='Myrian® Configuration (C) 2005 Intrasense']/button[@controlid='1']"
+			addcaps="button,nativewindow"
+			refimgid="ccc43971-fc7f-4830-a3e2-876446b3f7af">
+				/form[@title~'^Myrian&#174;\ Configuration\ \(C\)']/button[@controlid='1']
+			</item>
+			<item
+			name="RadioButton1010"
+			id="a644fea3-450d-478c-94de-ed690605ec64"
+			searchtimeout="30000ms"
+			capname="radiobutton"
+			refpath="/form[@title='Myrian® Configuration (C) 2005 Intrasense']/container[@class='#32770' and @instance='0']/radiobutton[@controlid='1010']"
+			addcaps="radiobutton,nativewindow"
+			refimgid="83fe003d-6054-44b7-b4be-7ccdcefd81dc">
+				/form[@title~'^Myrian&#174;\ Configuration\ \(C\)']/?/?/radiobutton[@controlid='1010']
+			</item>
+			<item
+			name="RadioButton1011"
+			id="05374d29-e12f-4c5a-86c3-292d7edf40be"
+			searchtimeout="30000ms"
+			capname="radiobutton"
+			refpath="/form[@title='Myrian® Configuration (C) 2005 Intrasense']/container[@class='#32770' and @instance='0']/radiobutton[@controlid='1011']"
+			addcaps="radiobutton,nativewindow"
+			refimgid="e6205bcf-8628-4237-bedd-b7ca805f8c6c">
+				/form[@title~'^Myrian&#174;\ Configuration\ \(C\)']/?/?/radiobutton[@controlid='1011']
+			</item>
+			<item
+			name="Button1003"
+			id="bfa38fbf-1cd6-4140-b0d6-aaf920393781"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@title='Myrian® Configuration (C) 2005 Intrasense']/button[@controlid='1003']"
+			addcaps="button,nativewindow"
+			refimgid="1596b180-7df6-4df3-8fa0-983cda44412a">
+				/form[@title~'^Myrian&#174;\ Configuration\ \(C\)']/button[@controlid='1003']
+			</item>
+			<item
+			name="Text1000"
+			id="614bda5a-3533-48b8-a550-d3edfcc1e20e"
+			searchtimeout="30000ms"
+			capname="text"
+			refpath="/form[@title='Myrian® Configuration (C) 2005 Intrasense']/container[@class='#32770' and @instance='0']/text[@controlid='1000']"
+			addcaps="text,nativewindow"
+			refimgid="57b5d2b6-78db-4a83-8f89-ab37e41c45a0">
+				/form[@title~'^Myrian&#174;\ Configuration\ \(C\)']/?/?/text[@controlid='1000']
+			</item>
+			<item
+			name="Text1002"
+			id="3b676c7f-c1c6-4cc4-9854-3ca3a3db2c2e"
+			searchtimeout="30000ms"
+			capname="text"
+			refpath="/form[@title='Myrian® Configuration (C) 2005 Intrasense']/container[@class='#32770' and @instance='0']/text[@controlid='1002']"
+			addcaps="text,nativewindow"
+			refimgid="92d7a459-11d4-44a7-9004-fde714557036">
+				/form[@title~'^Myrian&#174;\ Configuration\ \(C\)']/?/?/text[@controlid='1002']
+			</item>
+			<item
+			name="Button1000"
+			id="3d063372-5a5f-45b6-9ae5-62385e152ee4"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@title='Myrian® Configuration (C) 2005 Intrasense']/container[@class='#32770' and @instance='0']/button[@controlid='1000']"
+			addcaps="button,nativewindow"
+			refimgid="4b59c9c2-df89-4ba9-95a0-fe48827db5c4">
+				/form[@title~'^Myrian&#174;\ Configuration\ \(C\)']/?/?/button[@controlid='1000']
+			</item>
+			<item
+			name="Text1003"
+			id="716a90d3-5a66-40bb-b89a-6ff5ac363af4"
+			searchtimeout="30000ms"
+			capname="text"
+			refpath="/form[@title='Myrian® Configuration (C) 2005 Intrasense']/container[@class='#32770' and @instance='0']/text[@controlid='1003']"
+			addcaps="text,nativewindow"
+			refimgid="e176aa14-db18-4465-845b-da883fcdd180">
+				/form[@title~'^Myrian&#174;\ Configuration\ \(C\)']/?/?/text[@controlid='1003']
+			</item>
+			<item
+			name="Button1001"
+			id="b12677d5-b8a9-4215-ae03-df6b12504578"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@title='Myrian® Configuration (C) 2005 Intrasense']/container[@class='#32770' and @instance='0']/button[@controlid='1001']"
+			addcaps="button,nativewindow"
+			refimgid="d7f87308-f818-4aa2-8436-27e0eb13173e">
+				/form[@title~'^Myrian&#174;\ Configuration\ \(C\)']/?/?/button[@controlid='1001']
+			</item>
+			<item
+			name="Button1009"
+			id="ac3382a7-5d80-46dd-ac14-c2a2616a5535"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@title='Myrian® Configuration (C) 2005 Intrasense']/container[@class='#32770' and @instance='0']/button[@controlid='1009']"
+			addcaps="button,nativewindow"
+			refimgid="feee00da-5278-4862-9481-59891a333d93">
+				/form[@title~'^Myrian&#174;\ Configuration\ \(C\)']/?/?/button[@controlid='1009']
+			</item>
+			<item
+			name="Button1008"
+			id="a712cb93-0819-4d4d-b36c-c6e66090fe08"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@title='Myrian® Configuration (C) 2005 Intrasense']/container[@class='#32770' and @instance='0']/button[@controlid='1008']"
+			addcaps="button,nativewindow"
+			refimgid="03af7710-546e-4f5a-9053-833fc657c03d">
+				/form[@title~'^Myrian&#174;\ Configuration\ \(C\)']/?/?/button[@controlid='1008']
+			</item>
+			<item
+			name="Text1014"
+			id="38df9221-e1a6-41e0-be29-4d2a2984470a"
+			searchtimeout="30000ms"
+			capname="text"
+			refpath="/form[@title='Myrian® Configuration (C) 2005 Intrasense']/container[@class='#32770' and @instance='0']/text[@controlid='1014']"
+			addcaps="text,nativewindow"
+			refimgid="1c05b28c-33db-491d-962c-81ed7eaeb416">
+				/form[@title~'^Myrian&#174;\ Configuration\ \(C\)']/?/?/text[@controlid='1014']
+			</item>
+			<item
+			name="Button1015"
+			id="873e1bcd-5d79-462d-9a30-e5680d423b1b"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@title='Myrian® Configuration (C) 2005 Intrasense']/container[@class='#32770' and @instance='0']/button[@controlid='1015']"
+			addcaps="button,nativewindow"
+			refimgid="f1cac876-d755-4a26-a5d6-4a883a363d54">
+				/form[@title~'^Myrian&#174;\ Configuration\ \(C\)']/?/?/button[@controlid='1015']
+			</item>
+			<item
+			name="CheckBox1013"
+			id="81650e56-03b2-447d-8514-e0a9db6d9fa5"
+			searchtimeout="30000ms"
+			capname="checkbox"
+			refpath="/form[@title='Myrian® Configuration (C) 2005 Intrasense']/container[@class='#32770' and @instance='0']/checkbox[@controlid='1013']"
+			addcaps="checkbox,nativewindow"
+			refimgid="821060e4-9aec-41d9-8ab5-1f90bb14cb32">
+				/form[@title~'^Myrian&#174;\ Configuration\ \(C\)']/?/?/checkbox[@controlid='1013']
+			</item>
+			<folder
+			name="Isconfig"
+			id="5048c57e-70fe-417b-ac46-902a18dc604b"
+			searchtimeout="30000ms"
+			capname="container"
+			isrooted="True"
+			usecache="False">
+				<item
+				name="Text10061"
+				id="1215cd35-6a94-4c82-a3fd-806c0e2bab7a"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Myrian® Configuration (C) 2005 Intrasense']/container[@class='#32770' and @instance='0']/text[@controlid='1006']"
+				addcaps="text,nativewindow"
+				refimgid="a5078133-fde9-4e2f-a43b-9b00a450be5a">
+					/form[@title~'^Myrian&#174;\ Configuration\ \(C\)']/container[@instance='0']/text[10]
+				</item>
+				<item
+				name="Text10051"
+				id="1aa202bc-fdea-4163-aeb4-9e463c28b2db"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Myrian® Configuration (C) 2005 Intrasense']/container[@class='#32770' and @instance='0']/text[@controlid='1005']"
+				addcaps="text,nativewindow"
+				refimgid="4cba8b07-8400-40c0-9774-666483434b81">
+					/form[@title~'^Myrian&#174;\ Configuration\ \(C\)']/container[@instance='0']/text[4]
+				</item>
+				<item
+				name="Text10071"
+				id="2238a253-bba0-411b-8732-8a7ef6b8ab9c"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Myrian® Configuration (C) 2005 Intrasense']/container[@class='#32770' and @instance='0']/text[@controlid='1007']"
+				addcaps="text,nativewindow"
+				refimgid="28ae20b1-51cc-4984-a245-5e2aa5f3d81c">
+					/form[@title~'^Myrian&#174;\ Configuration\ \(C\)']/container[@instance='0']/text[8]
+				</item>
+				<item
+				name="Text10041"
+				id="dab9735f-d1d0-45e0-83c2-10b032b8fda8"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Myrian® Configuration (C) 2005 Intrasense']/container[@class='#32770' and @instance='0']/text[@controlid='1004']"
+				addcaps="text,nativewindow"
+				refimgid="9f184393-6db0-4209-8f58-3ab4dea3ea03">
+					/form[@title~'^Myrian&#174;\ Configuration\ \(C\)']/container[@instance='0']/text[@controlid='1004']
+				</item>
+				<basepath>
+					/form[@title~'^Myrian&#174;\ Configuration\ \(C\)']/container[@instance='0']
+				</basepath>
+			</folder>
+			<basepath>
+				/form[@title~'^Myrian&#174;\ Configuration\ \(C\)']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAD0SURBVDhPlZLBEYMgEEXpiYK80YLXnCzBGW45
+pAIrsADuFmAhZN/qKlExyZ/5ggz/LYu6O7Vtm++8bqsri5x7XHocRxkdrgtASDl7Gc28/wU4hWO6
+B3Rdl83oFL4DEGqaRi2vCuBZhn04tFBWNMDr+dwANX2cwKpa2ADfPAwD43J0UwlAfd+r+e5HkasC
+OE2IUVZiTilotfJktHAJYI59kguTSwtpBxDy3m8QDSMCSQKYOdXneaa2gmSLVp+mae+71BWA+bpZ
+A6zjnwFsxElacHIXnMi8xnYdAawRpmcA2oZAtKXlDk5i0bxpaYXY+heews69ATtP79jMAAFjAAAA
+AElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		name="MyrianRConfiguration"
+		id="e2c8eff0-b367-4055-9105-3fa08a94f2f9"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@title='Myrian® Configuration']"
+		addcaps="form,nativewindow"
+		isrooted="True"
+		usecache="False">
+			<item
+			name="Button6"
+			id="7cf2eddc-2e11-4cc9-a7bb-40f9a8a96770"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@title='Myrian® Configuration']/button[@controlid='6']"
+			addcaps="button,nativewindow"
+			refimgid="29430b42-e306-496e-b730-8ed43d0fbe41">
+				/form[@title='Myrian&#174; Configuration']/button[@controlid='6']
+			</item>
+			<item
+			name="Button7"
+			id="684f294d-c79f-460a-af7f-6b0ebecb35f2"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@title='Myrian® Configuration']/button[@controlid='7']"
+			addcaps="button,nativewindow"
+			refimgid="639ff2ae-cda5-490f-a93b-cd69c1ad0572">
+				/form[@title='Myrian&#174; Configuration']/button[@controlid='7']
+			</item>
+			<basepath>
+				/form[@title='Myrian&#174; Configuration']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAADASURBVDhPjZDtEYQgDETpyZ4sxR6uGwq4/5Sj
+vIRgyIHnOuuQj30yppWO4zhLKUszr2t4Lhb2/XtuE6PXAPb3GhDX8/b5A2BgFkAIpycATdMAcOGN
+RpvXiAIovHPONyCEf/4BB5OFDWDnmTvA34CGX3gyOwMAeUAbDn4NoE7U2pU3snn4yAiwsCxoV94h
+dIeRv5KdDUAPB8CoFaAH5NG7SB21AiDp18d67EjIywMwtUlBIHTG/kw9LJXK9+KsKaULnNkBnU0T
+XiwAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		name="MyrianR200OuvertureDeSession"
+		id="d02722bc-8a53-4579-ad5d-9e5d9fda9320"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@title='Myrian® 2.0.0 - Ouverture de session']"
+		addcaps="form,nativewindow"
+		isrooted="True"
+		usecache="False">
+			<item
+			name="ComboBox880"
+			id="4670a8c8-802b-45a8-85a7-e5ba44d895c3"
+			searchtimeout="30000ms"
+			capname="combobox"
+			refpath="/form[@title='Myrian® 2.0.0 - Ouverture de session']/combobox[@controlid='880']"
+			addcaps="combobox,nativewindow"
+			refimgid="15c604ca-fb23-4b32-8083-e9cb0c7d63bc">
+				/form[@title~'^Myrian&#174;\ 2\.0\.0\ -\ Ouverture']/combobox[@controlid='880']
+			</item>
+			<item
+			name="Text882"
+			id="5a67676c-f04d-409e-98b9-42ff0ae10510"
+			searchtimeout="30000ms"
+			capname="text"
+			refpath="/form[@title='Myrian® 2.0.0 - Ouverture de session']/text[@controlid='882']"
+			addcaps="text,nativewindow"
+			refimgid="3f3f395d-5391-4086-a3e0-61c54062b168">
+				/form[@title~'^Myrian&#174;\ 2\.0\.0\ -\ Ouverture']/text[@controlid='882']
+			</item>
+			<item
+			name="Button1"
+			id="f3759d92-048c-44a0-93d3-8500b85f2e35"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@title='Myrian® 2.0.0 - Ouverture de session']/button[@controlid='1']"
+			addcaps="button,nativewindow"
+			refimgid="9874a7b2-fcf6-46d8-ad09-d7b11e0e82a4">
+				/form[@title~'^Myrian&#174;\ 2\.0\.0\ -\ Ouverture']/button[@controlid='1']
+			</item>
+			<item
+			name="Button2"
+			id="c1e35d62-ed11-4094-8817-d84d1842b4d3"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@title='Myrian® 2.0.0 - Ouverture de session']/button[@controlid='2']"
+			addcaps="button,nativewindow"
+			refimgid="a2141556-015c-4349-b45f-089e2facd21f">
+				/form[@title~'^Myrian&#174;\ 2\.0\.0\ -\ Ouverture']/button[@controlid='2']
+			</item>
+			<basepath>
+				/form[@title~'^Myrian&#174;\ 2\.0\.0\ -\ Ouverture']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAALqSURBVDhPjVN9LNRhHP/pQidiNcy8RB2KZsK8
+h7lsdCkv5w86KRvVdEk6tktaZSIvKxJ5vXBDUgqlvDYa11qmJopipVaba97izrnn2/d32Nr6I5/t
+s2fP5/N8v9/Pnuf3o2j4CzrZqY+XprxjxNmUjs42lNRUxnohqPwu7h0j8PQ9gWBBSwOlra2/aq0P
+ifmSso4RAq1DBNqGlcSbV1CE8uYV938IC2Nca5x68nyYQNNb5DsCta9kC4Ysr0ATVy5z9RQNNRaL
+r2kXVGy1k53uttXS1xg1BmXkGKtV1DH3phXj02zDRu2Y5lBcRZ2hmbMFR9hu7Hzktmtkwc/qS81L
+X0p6FLOdw8uyvGfzkyb2QeF0Zwb3bGVaHU7t/kigB++i7zOB87cGhswdeC6h6WPJ2W2K2UZM92CQ
+QNcHApJxAvFV0nkzWz8B3YAysGTvcAgrzs7rkC92YZMXowTudC0scLMmJeV9y/L6AQLl/QQqJARE
+uAbfmFXu8oquoigNa8o9usr6WIV8MrebAM2cLgKlfSssekmgBNeMdgKZHZjq4TLsS5HC3sjGYZzr
+SqenHHllCfx6JWRjIX3wOh5Ma1lcymhTKOkG+T0Ekh4pIeDKxIxT/NdFl/jRGR0DmwQs1qbTU07H
+K0vchFLYnzEHnNzfEF60QJwjqiSclMHRiGIZhBTKIAB1x1jJNz1jtzNMbdPDWGaIXPnYPGKrazwv
+/gK/zDnwuToDNiGi10xdVqiRwzmh+wUpeKPmfXlaNWD3wRwRlqxMXkNIco0orFQBcQ34dKn94xpM
+XS7KTFMPYWCUmAAXvYi7SogWK4iVD78cvS2qwjVYeUb5825OfPKNEfVicShKqgn6dpGep+4TOFmP
+l9dEIDxr5AdDQ+sAWgza/xsbkaZIc6QmLdAwtONZnBDLppOaCQga5csmezi5KNM/2rqh7nS0tpBf
+uyi3ZZ++h3sb5AaVs15s0jPfbmIfmKiuruWA23+iUxRF/QFRdH1JUngOTAAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		name="MyrianR"
+		id="50db8392-3d5e-44a1-beaa-bdd1eff0d31f"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@title='Myrian®']"
+		addcaps="form,nativewindow"
+		refimgid="a7f1a3a1-72c6-4a0e-b974-24bad15a1a89"
+		isrooted="True"
+		usecache="False">
+			<item
+			name="Button2"
+			id="24282759-4d91-4ef0-a2d4-7baafcda93ec"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@title='Myrian®']/button[@controlid='2']"
+			addcaps="button,nativewindow"
+			refimgid="da89c695-4b8d-42b1-94dc-77dc56c7ba4c">
+				/form[@title='Myrian&#174;']/button[@controlid='2']
+			</item>
+			<basepath>
+				/form[@title='Myrian&#174;']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAALqSURBVDhPjVN9LNRhHP/pQidiNcy8RB2KZsK8
+h7lsdCkv5w86KRvVdEk6tktaZSIvKxJ5vXBDUgqlvDYa11qmJopipVaba97izrnn2/d32Nr6I5/t
+s2fP5/N8v9/Pnuf3o2j4CzrZqY+XprxjxNmUjs42lNRUxnohqPwu7h0j8PQ9gWBBSwOlra2/aq0P
+ifmSso4RAq1DBNqGlcSbV1CE8uYV938IC2Nca5x68nyYQNNb5DsCta9kC4Ysr0ATVy5z9RQNNRaL
+r2kXVGy1k53uttXS1xg1BmXkGKtV1DH3phXj02zDRu2Y5lBcRZ2hmbMFR9hu7Hzktmtkwc/qS81L
+X0p6FLOdw8uyvGfzkyb2QeF0Zwb3bGVaHU7t/kigB++i7zOB87cGhswdeC6h6WPJ2W2K2UZM92CQ
+QNcHApJxAvFV0nkzWz8B3YAysGTvcAgrzs7rkC92YZMXowTudC0scLMmJeV9y/L6AQLl/QQqJARE
+uAbfmFXu8oquoigNa8o9usr6WIV8MrebAM2cLgKlfSssekmgBNeMdgKZHZjq4TLsS5HC3sjGYZzr
+SqenHHllCfx6JWRjIX3wOh5Ma1lcymhTKOkG+T0Ekh4pIeDKxIxT/NdFl/jRGR0DmwQs1qbTU07H
+K0vchFLYnzEHnNzfEF60QJwjqiSclMHRiGIZhBTKIAB1x1jJNz1jtzNMbdPDWGaIXPnYPGKrazwv
+/gK/zDnwuToDNiGi10xdVqiRwzmh+wUpeKPmfXlaNWD3wRwRlqxMXkNIco0orFQBcQ34dKn94xpM
+XS7KTFMPYWCUmAAXvYi7SogWK4iVD78cvS2qwjVYeUb5825OfPKNEfVicShKqgn6dpGep+4TOFmP
+l9dEIDxr5AdDQ+sAWgza/xsbkaZIc6QmLdAwtONZnBDLppOaCQga5csmezi5KNM/2rqh7nS0tpBf
+uyi3ZZ++h3sb5AaVs15s0jPfbmIfmKiuruWA23+iUxRF/QFRdH1JUngOTAAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		name="MyrianRCalibrationEcranC2005Intra"
+		id="be9bb14f-4633-4a2c-9a16-71cc5cfbd142"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@title='Myrian® Calibration Ecran (C) 2005 Intrasense']"
+		addcaps="form,nativewindow"
+		isrooted="True"
+		usecache="False">
+			<item
+			name="Button2"
+			id="f62770e5-07fc-45d8-bbc4-3ac5be0e2616"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@title='Myrian® Calibration Ecran (C) 2005 Intrasense']/button[@controlid='2']"
+			addcaps="button,nativewindow"
+			refimgid="d197a7b1-8e1a-48d7-9586-6dab994c5c02">
+				/form[@title~'^Myrian&#174;\ Calibration\ Ecran']/button[@controlid='2']
+			</item>
+			<basepath>
+				/form[@title~'^Myrian&#174;\ Calibration\ Ecran']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAABzSURBVDhPvY9REoAgCEQ9ukfzZibW5oIG1kdv
+5s0EwmqpUbs5a9HfYCzMy5sBK0dQiF2wdQAGOUCHBdibZwO8gPMsQIY8f6N+oJQyXojGGzP/og0A
+3LMuA+TzKlVtfQyAqGWI+6wbIIeQ+6wKaNzP2zfVAxY6beyZ9VAZAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		name="ContratDeLicenceEULA"
+		id="373ba717-f1fb-482f-a330-a49817b14f28"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@title='Contrat de Licence (EULA)']"
+		addcaps="form,nativewindow"
+		isrooted="True"
+		usecache="False">
+			<item
+			name="CheckBox2134"
+			id="8dc66632-1327-461e-af85-81582ecd57b9"
+			searchtimeout="30000ms"
+			capname="checkbox"
+			refpath="/form[@title='Contrat de Licence (EULA)']/checkbox[@controlid='2134']"
+			addcaps="checkbox,nativewindow"
+			refimgid="889e0fab-a8be-4c51-9490-1186f164b71e">
+				/form[@title='Contrat de Licence (EULA)']/checkbox[@controlid='2134']
+			</item>
+			<item
+			name="Button1"
+			id="ebcae159-32c1-4072-bf04-6e977ac759b2"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@title='Contrat de Licence (EULA)']/button[@controlid='1']"
+			addcaps="button,nativewindow"
+			refimgid="5832e7b2-f921-4e5b-b467-154a0bb969a7">
+				/form[@title='Contrat de Licence (EULA)']/button[@controlid='1']
+			</item>
+			<basepath>
+				/form[@title='Contrat de Licence (EULA)']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAALqSURBVDhPjVN9LNRhHP/pQidiNcy8RB2KZsK8
+h7lsdCkv5w86KRvVdEk6tktaZSIvKxJ5vXBDUgqlvDYa11qmJopipVaba97izrnn2/d32Nr6I5/t
+s2fP5/N8v9/Pnuf3o2j4CzrZqY+XprxjxNmUjs42lNRUxnohqPwu7h0j8PQ9gWBBSwOlra2/aq0P
+ifmSso4RAq1DBNqGlcSbV1CE8uYV938IC2Nca5x68nyYQNNb5DsCta9kC4Ysr0ATVy5z9RQNNRaL
+r2kXVGy1k53uttXS1xg1BmXkGKtV1DH3phXj02zDRu2Y5lBcRZ2hmbMFR9hu7Hzktmtkwc/qS81L
+X0p6FLOdw8uyvGfzkyb2QeF0Zwb3bGVaHU7t/kigB++i7zOB87cGhswdeC6h6WPJ2W2K2UZM92CQ
+QNcHApJxAvFV0nkzWz8B3YAysGTvcAgrzs7rkC92YZMXowTudC0scLMmJeV9y/L6AQLl/QQqJARE
+uAbfmFXu8oquoigNa8o9usr6WIV8MrebAM2cLgKlfSssekmgBNeMdgKZHZjq4TLsS5HC3sjGYZzr
+SqenHHllCfx6JWRjIX3wOh5Ma1lcymhTKOkG+T0Ekh4pIeDKxIxT/NdFl/jRGR0DmwQs1qbTU07H
+K0vchFLYnzEHnNzfEF60QJwjqiSclMHRiGIZhBTKIAB1x1jJNz1jtzNMbdPDWGaIXPnYPGKrazwv
+/gK/zDnwuToDNiGi10xdVqiRwzmh+wUpeKPmfXlaNWD3wRwRlqxMXkNIco0orFQBcQ34dKn94xpM
+XS7KTFMPYWCUmAAXvYi7SogWK4iVD78cvS2qwjVYeUb5825OfPKNEfVicShKqgn6dpGep+4TOFmP
+l9dEIDxr5AdDQ+sAWgza/xsbkaZIc6QmLdAwtONZnBDLppOaCQga5csmezi5KNM/2rqh7nS0tpBf
+uyi3ZZ++h3sb5AaVs15s0jPfbmIfmKiuruWA23+iUxRF/QFRdH1JUngOTAAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		name="MyrianR200"
+		id="9ba5d511-ddeb-48c4-adb2-c8dfffa3478e"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@title='Myrian® 2.0.0']"
+		addcaps="form,nativewindow"
+		isrooted="True"
+		usecache="False">
+			<item
+			name="AfxWnd140"
+			id="be6607ba-199b-4f60-8ce6-8a42bfa5debf"
+			searchtimeout="30000ms"
+			capname="unknown"
+			refpath="/form[@title='Myrian® 2.0.0']/element[@class='AfxWnd140' and @instance='0']"
+			addcaps="unknown,nativewindow"
+			refimgid="bdcf0330-d93c-444a-9539-112b839ee3a7">
+				/form[@title='Myrian&#174; 2.0.0']/element[@instance='0']
+			</item>
+			<item
+			name="Button1052"
+			id="712faec6-0618-491e-b402-b443f523054a"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@title='Myrian® 2.0.0']/container[@class='#32770' and @instance='1']/container[@class='#32770' and @instance='0']/button[@controlid='1052']"
+			addcaps="button,nativewindow"
+			refimgid="615d8d98-d848-4208-8cdd-ba03696ccd0e">
+				/form[@title='Myrian&#174; 2.0.0']/container[@instance='1']/container[@instance='0']/button[@controlid='1052']
+			</item>
+			<item
+			name="Button737"
+			id="c6f96bbf-ae60-4fda-843f-e22f4e8ab9f9"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@title='Myrian® 2.0.0']/container[@class='#32770' and @instance='0']/button[@controlid='737']"
+			addcaps="button,nativewindow"
+			refimgid="89c3db16-2ddc-4a6f-8edb-5250e9c12095">
+				/form[@title='Myrian&#174; 2.0.0']/?/?/button[@controlid='737']
+			</item>
+			<basepath>
+				/form[@title='Myrian&#174; 2.0.0']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAKwSURBVDhPlVF9LNRxHP7dHTLJ7Fr+uRotbU3m
+pTsZq0hE0y2FapluFItWsoRl0kpewqgkDblmQjR5OZrymndNjazSi/qn0HDCnXMvT59zWtPazLM9
+++7zfD7P8/3+Pj9Gi+ACqbikT632jO0poXLdorgKsMRdSmnzMND2EfCO6agjbVUhLHGHYrR+CKgd
+BLq/ANs8EtNIN9C1V4C5S4JhRb9K9ifg8WugrHdezuXtcGQYvj6NsJbItjmcZrb34uARx/C+MO5G
+Wx5pHMbO68aGZ0MqRd1boOEd0PQBaKVP2e4amUwDJqLMETuflG8pVyTK6dJ+oO8rMDELpDUo5qhv
+S2Q4HsH5yYXtMlnbJ6BnBOj8DAgj6lv4Prd3BollA7UUXvFG9zrtzJ0WDXzje0fI66QNYKz9cr3d
+ogdqil/9fUX6c4UiVDw3VkPmwh7g7ksgrwuIq1bB7epPOZttKCLrWsY/czwkXqLWZLUC1xuAlBdA
+TjtwvxMo6NadqY3AzSbAN0cO+/M/YMEPLCLz+sXb9yeON54tV+uGiOnNQFjemDRBolQ9oABtfTx/
+Adb+lcO7Lo/KBCLJENlowYuLZZiDt2RSh6hxOMdNYHfCFDySppRWh0pabPyeNO9Pm8W+5Bm4XJsG
+P+z9qJ6e4R6yWBK1f0eH04+Ucu2gd5YcnhlzMOUJMgwMuFYWXg+zXROn4Z4yA/fUWQiz58GzPhZD
+Fo7OuYToSsX3wCI1Ip4CW51PlZO0hcgShPYmBhRpcLRACVGxBuFlC0pDI+5J6i0P2Cw44S6M7ewz
+s3BKonLRrNUtD+SeiawCzlXS5usAe5/0ZpLNtb1/wSaaEI2IusUQNjlcEkRVqTVR1cCF4slfHA5H
+SPLy21eAnl1AVWnQvdFJ/TXGIVQb6+TVwZTovHT+BwzzG5MsejzfaMBRAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<basepath/>
+	</rootfolder>
+	<variables/>
+</repository>

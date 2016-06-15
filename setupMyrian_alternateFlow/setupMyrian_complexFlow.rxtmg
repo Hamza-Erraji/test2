@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc
+rxversion="6.0">
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="setupMyrian_complexFlow"
+      id="46d821c7-4a25-4b95-93fe-2e43076f88f4"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="setupMyrian_complexFlow"
+      id="46d821c7-4a25-4b95-93fe-2e43076f88f4"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>
